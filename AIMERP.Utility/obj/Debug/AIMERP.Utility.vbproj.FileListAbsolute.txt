@@ -1,0 +1,48 @@
+D:\Work\AIMERP\AIMERP.Utility\bin\Debug\AIMERP.Utility.dll
+D:\Work\AIMERP\AIMERP.Utility\bin\Debug\AIMERP.Utility.pdb
+D:\Work\AIMERP\AIMERP.Utility\bin\Debug\AIMERP.Utility.xml
+D:\Work\AIMERP\AIMERP.Utility\obj\Debug\ResolveAssemblyReference.cache
+D:\Work\AIMERP\AIMERP.Utility\obj\Debug\AIMERP.Utility.Resources.resources
+D:\Work\AIMERP\AIMERP.Utility\obj\Debug\GenerateResource.read.1.tlog
+D:\Work\AIMERP\AIMERP.Utility\obj\Debug\GenerateResource.write.1.tlog
+D:\Work\AIMERP\AIMERP.Utility\obj\Debug\AIMERP.Utility.dll
+D:\Work\AIMERP\AIMERP.Utility\obj\Debug\AIMERP.Utility.xml
+D:\Work\AIMERP\AIMERP.Utility\obj\Debug\AIMERP.Utility.pdb
+F:\Work\AIMERP\AIMERP.Utility\bin\Debug\AIMERP.Utility.dll
+F:\Work\AIMERP\AIMERP.Utility\bin\Debug\AIMERP.Utility.pdb
+F:\Work\AIMERP\AIMERP.Utility\bin\Debug\AIMERP.Utility.xml
+F:\Work\AIMERP\AIMERP.Utility\obj\Debug\ResolveAssemblyReference.cache
+F:\Work\AIMERP\AIMERP.Utility\obj\Debug\AIMERP.Utility.Resources.resources
+F:\Work\AIMERP\AIMERP.Utility\obj\Debug\GenerateResource.read.1.tlog
+F:\Work\AIMERP\AIMERP.Utility\obj\Debug\GenerateResource.write.1.tlog
+F:\Work\AIMERP\AIMERP.Utility\obj\Debug\AIMERP.Utility.dll
+F:\Work\AIMERP\AIMERP.Utility\obj\Debug\AIMERP.Utility.xml
+F:\Work\AIMERP\AIMERP.Utility\obj\Debug\AIMERP.Utility.pdb
+H:\Work\AIMERP\AIMERP.Utility\bin\Debug\AIMERP.Utility.dll
+H:\Work\AIMERP\AIMERP.Utility\bin\Debug\AIMERP.Utility.pdb
+H:\Work\AIMERP\AIMERP.Utility\bin\Debug\AIMERP.Utility.xml
+H:\Work\AIMERP\AIMERP.Utility\obj\Debug\ResolveAssemblyReference.cache
+H:\Work\AIMERP\AIMERP.Utility\obj\Debug\AIMERP.Utility.Resources.resources
+H:\Work\AIMERP\AIMERP.Utility\obj\Debug\GenerateResource.read.1.tlog
+H:\Work\AIMERP\AIMERP.Utility\obj\Debug\GenerateResource.write.1.tlog
+H:\Work\AIMERP\AIMERP.Utility\obj\Debug\AIMERP.Utility.dll
+H:\Work\AIMERP\AIMERP.Utility\obj\Debug\AIMERP.Utility.xml
+H:\Work\AIMERP\AIMERP.Utility\obj\Debug\AIMERP.Utility.pdb
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.Utility\bin\Debug\AIMERP.Utility.dll
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.Utility\bin\Debug\AIMERP.Utility.pdb
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.Utility\bin\Debug\AIMERP.Utility.xml
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.Utility\obj\Debug\ResolveAssemblyReference.cache
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.Utility\obj\Debug\AIMERP.Utility.Resources.resources
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.Utility\obj\Debug\GenerateResource.read.1.tlog
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.Utility\obj\Debug\GenerateResource.write.1.tlog
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.Utility\obj\Debug\AIMERP.Utility.dll
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.Utility\obj\Debug\AIMERP.Utility.xml
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.Utility\obj\Debug\AIMERP.Utility.pdb
+E:\My Project\Freelance\AIMERP\Code\AIMERP.Utility\bin\Debug\AIMERP.Utility.dll
+E:\My Project\Freelance\AIMERP\Code\AIMERP.Utility\bin\Debug\AIMERP.Utility.pdb
+E:\My Project\Freelance\AIMERP\Code\AIMERP.Utility\bin\Debug\AIMERP.Utility.xml
+E:\My Project\Freelance\AIMERP\Code\AIMERP.Utility\obj\Debug\AIMERP.Utility.Resources.resources
+E:\My Project\Freelance\AIMERP\Code\AIMERP.Utility\obj\Debug\AIMERP.Utility.vbproj.GenerateResource.Cache
+E:\My Project\Freelance\AIMERP\Code\AIMERP.Utility\obj\Debug\AIMERP.Utility.dll
+E:\My Project\Freelance\AIMERP\Code\AIMERP.Utility\obj\Debug\AIMERP.Utility.xml
+E:\My Project\Freelance\AIMERP\Code\AIMERP.Utility\obj\Debug\AIMERP.Utility.pdb

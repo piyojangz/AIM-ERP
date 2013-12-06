@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{46E2FB6F-802E-4FF5-BA73-087911FF7769}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>AIMERP.UI</RootNamespace>
+    <AssemblyName>AIMERP.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>AIMERP.UI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>AIMERP.UI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.7.1005, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="AjaxMin, Version=4.97.4951.28478, Culture=neutral, PublicKeyToken=21ef50ce11b5d80f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\AjaxMin.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Workflow.Activities" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="closer.htm" />
+    <Content Include="css\blur.svg" />
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\default.css" />
+    <Content Include="css\jquery-ui.css" />
+    <Content Include="css\AIMERP.css" />
+    <Content Include="default.htm" />
+    <Content Include="Demo.aspx" />
+    <Content Include="dll\AjaxControlToolkit.dll" />
+    <Content Include="dll\AjaxMin.dll" />
+    <Content Include="ERP\DO\AIMMASCAR.aspx" />
+    <Content Include="ERP\DO\AIMTRNDELIVERY.aspx" />
+    <Content Include="ERP\FIN\AIMMASBANK.aspx" />
+    <Content Include="ERP\FIN\AIMMASPAYTERM.aspx" />
+    <Content Include="ERP\FIN\AIMMASSALESVAT.aspx" />
+    <Content Include="ERP\FIN\AIMMASTAX.aspx" />
+    <Content Include="ERP\FIN\AIMTRNBILLING.aspx" />
+    <Content Include="ERP\FIN\AIMTRNPAYMENT.aspx" />
+    <Content Include="ERP\FIN\AIMTRNRECEIPT.aspx" />
+    <Content Include="ERP\INVEN\AIMMASINVENTORY_ORG.aspx" />
+    <Content Include="ERP\INVEN\AIMMASITEM.aspx" />
+    <Content Include="ERP\INVEN\AIMMASLOCATOR.aspx" />
+    <Content Include="ERP\INVEN\AIMMASORGITEM.aspx" />
+    <Content Include="ERP\INVEN\AIMMASPRICELIST.aspx" />
+    <Content Include="ERP\INVEN\AIMMASUOM.aspx" />
+    <Content Include="ERP\Sales\AIMMASPRO.aspx" />
+    <Content Include="ERP\PO\AIMMASSUPPLIER.aspx" />
+    <Content Include="ERP\PO\AIMTRNPO.aspx" />
+    <Content Include="ERP\PO\AIMTRNPR.aspx" />
+    <Content Include="ERP\PO\AIMTRNPQUO.aspx" />
+    <Content Include="ERP\Sales\AIMMASCUSTOMER.aspx" />
+    <Content Include="ERP\Sales\AIMTRNSQUO.aspx" />
+    <Content Include="ERP\FIN\AIMMASRECTERM.aspx" />
+    <Content Include="ERP\Sales\AIMTRNRETURN.aspx" />
+    <Content Include="ERP\Sales\AIMTRNSALES.aspx" />
+    <Content Include="ERP\System\AIMMASAPPROVAL.aspx" />
+    <Content Include="ERP\System\AIMMASEMPINFO.aspx" />
+    <Content Include="ERP\System\AIMMASORG.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Home.aspx" />
+    <Content Include="image\button\btnAdd.png" />
+    <Content Include="image\button\btnCalendar.png" />
+    <Content Include="image\button\btnDelete.png" />
+    <Content Include="image\button\btnEdit.png" />
+    <Content Include="image\button\First.png" />
+    <Content Include="image\button\Last.png" />
+    <Content Include="image\button\Next.png" />
+    <Content Include="image\button\Previous.png" />
+    <Content Include="image\logo.jpg" />
+    <Content Include="image\message\imgError.PNG" />
+    <Content Include="image\message\imgInformation.PNG" />
+    <Content Include="image\message\imgQuestionMark.PNG" />
+    <Content Include="image\message\imgWarning.PNG" />
+    <Content Include="image\button\x.gif" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\css3-mediaqueries.js" />
+    <Content Include="js\html5shiv.js" />
+    <Content Include="js\jquery-1.9.1.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="js\jquery.placeholder.js" />
+    <Content Include="js\respond.min.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="Template\Template.aspx" />
+    <Content Include="UserControl\MessageBox.ascx" />
+    <Content Include="UserControl\PopUpSearch.ascx" />
+    <Content Include="UserControl\PopUpSearchCurrency.ascx" />
+    <Content Include="UserControl\PopUpSearchCustomer.ascx" />
+    <Content Include="UserControl\PopUpSearchField.ascx" />
+    <Content Include="UserControl\PopUpSearchItem.ascx" />
+    <Content Include="UserControl\PopUpSearchReceiveTerm.ascx" />
+    <Content Include="UserControl\PopUpSearchSalesTax.ascx" />
+    <Content Include="UserControl\PopUpSearchSite.ascx" />
+    <Content Include="UserControl\PopUpSearchUOM.ascx" />
+    <Content Include="UserControl\RepeaterNavigateBar.ascx" />
+    <Content Include="UserControl\ToolBar.ascx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Demo.aspx.designer.vb">
+      <DependentUpon>Demo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demo.aspx.vb">
+      <DependentUpon>Demo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ERP\DO\AIMMASCAR.aspx.designer.vb">
+      <DependentUpon>AIMMASCAR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\DO\AIMMASCAR.aspx.vb">
+      <DependentUpon>AIMMASCAR.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ERP\DO\AIMTRNDELIVERY.aspx.designer.vb">
+      <DependentUpon>AIMTRNDELIVERY.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\DO\AIMTRNDELIVERY.aspx.vb">
+      <DependentUpon>AIMTRNDELIVERY.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ERP\FIN\AIMMASBANK.aspx.designer.vb">
+      <DependentUpon>AIMMASBANK.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\FIN\AIMMASBANK.aspx.vb">
+      <DependentUpon>AIMMASBANK.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ERP\FIN\AIMMASPAYTERM.aspx.designer.vb">
+      <DependentUpon>AIMMASPAYTERM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\FIN\AIMMASPAYTERM.aspx.vb">
+      <DependentUpon>AIMMASPAYTERM.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ERP\FIN\AIMMASSALESVAT.aspx.designer.vb">
+      <DependentUpon>AIMMASSALESVAT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\FIN\AIMMASSALESVAT.aspx.vb">
+      <DependentUpon>AIMMASSALESVAT.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ERP\FIN\AIMMASTAX.aspx.designer.vb">
+      <DependentUpon>AIMMASTAX.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\FIN\AIMMASTAX.aspx.vb">
+      <DependentUpon>AIMMASTAX.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ERP\FIN\AIMTRNBILLING.aspx.designer.vb">
+      <DependentUpon>AIMTRNBILLING.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\FIN\AIMTRNBILLING.aspx.vb">
+      <DependentUpon>AIMTRNBILLING.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ERP\FIN\AIMTRNPAYMENT.aspx.designer.vb">
+      <DependentUpon>AIMTRNPAYMENT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\FIN\AIMTRNPAYMENT.aspx.vb">
+      <DependentUpon>AIMTRNPAYMENT.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ERP\FIN\AIMTRNRECEIPT.aspx.designer.vb">
+      <DependentUpon>AIMTRNRECEIPT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\FIN\AIMTRNRECEIPT.aspx.vb">
+      <DependentUpon>AIMTRNRECEIPT.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ERP\INVEN\AIMMASINVENTORY_ORG.aspx.designer.vb">
+      <DependentUpon>AIMMASINVENTORY_ORG.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\INVEN\AIMMASINVENTORY_ORG.aspx.vb">
+      <DependentUpon>AIMMASINVENTORY_ORG.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ERP\INVEN\AIMMASITEM.aspx.designer.vb">
+      <DependentUpon>AIMMASITEM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\INVEN\AIMMASITEM.aspx.vb">
+      <DependentUpon>AIMMASITEM.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ERP\INVEN\AIMMASLOCATOR.aspx.designer.vb">
+      <DependentUpon>AIMMASLOCATOR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\INVEN\AIMMASLOCATOR.aspx.vb">
+      <DependentUpon>AIMMASLOCATOR.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ERP\INVEN\AIMMASORGITEM.aspx.designer.vb">
+      <DependentUpon>AIMMASORGITEM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\INVEN\AIMMASORGITEM.aspx.vb">
+      <DependentUpon>AIMMASORGITEM.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ERP\INVEN\AIMMASPRICELIST.aspx.designer.vb">
+      <DependentUpon>AIMMASPRICELIST.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\INVEN\AIMMASPRICELIST.aspx.vb">
+      <DependentUpon>AIMMASPRICELIST.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ERP\INVEN\AIMMASUOM.aspx.designer.vb">
+      <DependentUpon>AIMMASUOM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\INVEN\AIMMASUOM.aspx.vb">
+      <DependentUpon>AIMMASUOM.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ERP\Sales\AIMMASPRO.aspx.designer.vb">
+      <DependentUpon>AIMMASPRO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\Sales\AIMMASPRO.aspx.vb">
+      <DependentUpon>AIMMASPRO.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ERP\PO\AIMMASSUPPLIER.aspx.designer.vb">
+      <DependentUpon>AIMMASSUPPLIER.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\PO\AIMMASSUPPLIER.aspx.vb">
+      <DependentUpon>AIMMASSUPPLIER.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ERP\PO\AIMTRNPO.aspx.designer.vb">
+      <DependentUpon>AIMTRNPO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\PO\AIMTRNPO.aspx.vb">
+      <DependentUpon>AIMTRNPO.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ERP\PO\AIMTRNPR.aspx.designer.vb">
+      <DependentUpon>AIMTRNPR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\PO\AIMTRNPR.aspx.vb">
+      <DependentUpon>AIMTRNPR.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ERP\PO\AIMTRNPQUO.aspx.designer.vb">
+      <DependentUpon>AIMTRNPQUO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\PO\AIMTRNPQUO.aspx.vb">
+      <DependentUpon>AIMTRNPQUO.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ERP\Sales\AIMMASCUSTOMER.aspx.designer.vb">
+      <DependentUpon>AIMMASCUSTOMER.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\Sales\AIMMASCUSTOMER.aspx.vb">
+      <DependentUpon>AIMMASCUSTOMER.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ERP\Sales\AIMTRNSQUO.aspx.designer.vb">
+      <DependentUpon>AIMTRNSQUO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\Sales\AIMTRNSQUO.aspx.vb">
+      <DependentUpon>AIMTRNSQUO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ERP\FIN\AIMMASRECTERM.aspx.designer.vb">
+      <DependentUpon>AIMMASRECTERM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\FIN\AIMMASRECTERM.aspx.vb">
+      <DependentUpon>AIMMASRECTERM.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ERP\Sales\AIMTRNRETURN.aspx.designer.vb">
+      <DependentUpon>AIMTRNRETURN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\Sales\AIMTRNRETURN.aspx.vb">
+      <DependentUpon>AIMTRNRETURN.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ERP\Sales\AIMTRNSALES.aspx.designer.vb">
+      <DependentUpon>AIMTRNSALES.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\Sales\AIMTRNSALES.aspx.vb">
+      <DependentUpon>AIMTRNSALES.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ERP\System\AIMMASAPPROVAL.aspx.designer.vb">
+      <DependentUpon>AIMMASAPPROVAL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\System\AIMMASAPPROVAL.aspx.vb">
+      <DependentUpon>AIMMASAPPROVAL.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ERP\System\AIMMASEMPINFO.aspx.designer.vb">
+      <DependentUpon>AIMMASEMPINFO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\System\AIMMASEMPINFO.aspx.vb">
+      <DependentUpon>AIMMASEMPINFO.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ERP\System\AIMMASORG.aspx.designer.vb">
+      <DependentUpon>AIMMASORG.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\System\AIMMASORG.aspx.vb">
+      <DependentUpon>AIMMASORG.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.vb">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.vb">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master.Master.designer.vb">
+      <DependentUpon>Master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Master.Master.vb">
+      <DependentUpon>Master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\BaseWebForm.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Template\Template.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Template.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\MessageBox.ascx.designer.vb">
+      <DependentUpon>MessageBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\MessageBox.ascx.vb">
+      <DependentUpon>MessageBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\PopUpSearch.ascx.designer.vb">
+      <DependentUpon>PopUpSearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\PopUpSearch.ascx.vb">
+      <DependentUpon>PopUpSearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\PopUpSearchCurrency.ascx.designer.vb">
+      <DependentUpon>PopUpSearchCurrency.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\PopUpSearchCurrency.ascx.vb">
+      <DependentUpon>PopUpSearchCurrency.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\PopUpSearchCustomer.ascx.designer.vb">
+      <DependentUpon>PopUpSearchCustomer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\PopUpSearchCustomer.ascx.vb">
+      <DependentUpon>PopUpSearchCustomer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\PopUpSearchField.ascx.designer.vb">
+      <DependentUpon>PopUpSearchField.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\PopUpSearchField.ascx.vb">
+      <DependentUpon>PopUpSearchField.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\PopUpSearchItem.ascx.designer.vb">
+      <DependentUpon>PopUpSearchItem.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\PopUpSearchItem.ascx.vb">
+      <DependentUpon>PopUpSearchItem.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\PopUpSearchReceiveTerm.ascx.designer.vb">
+      <DependentUpon>PopUpSearchReceiveTerm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\PopUpSearchReceiveTerm.ascx.vb">
+      <DependentUpon>PopUpSearchReceiveTerm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\PopUpSearchSalesTax.ascx.designer.vb">
+      <DependentUpon>PopUpSearchSalesTax.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\PopUpSearchSalesTax.ascx.vb">
+      <DependentUpon>PopUpSearchSalesTax.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\PopUpSearchSite.ascx.designer.vb">
+      <DependentUpon>PopUpSearchSite.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\PopUpSearchSite.ascx.vb">
+      <DependentUpon>PopUpSearchSite.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\PopUpSearchUOM.ascx.designer.vb">
+      <DependentUpon>PopUpSearchUOM.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\PopUpSearchUOM.ascx.vb">
+      <DependentUpon>PopUpSearchUOM.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\RepeaterNavigateBar.ascx.designer.vb">
+      <DependentUpon>RepeaterNavigateBar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\RepeaterNavigateBar.ascx.vb">
+      <DependentUpon>RepeaterNavigateBar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\ToolBar.ascx.designer.vb">
+      <DependentUpon>ToolBar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\ToolBar.ascx.vb">
+      <DependentUpon>ToolBar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Master.Master" />
+    <None Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="fonts\glyphicons-halflings-regular.woff" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AIMERP.Business\AIMERP.Business.vbproj">
+      <Project>{AC673B74-45F8-40B7-97E8-D99B89796581}</Project>
+      <Name>AIMERP.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AIMERP.Property\AIMERP.Property.vbproj">
+      <Project>{4E9A366E-EB1B-48E0-88EC-01AABE4F8EA5}</Project>
+      <Name>AIMERP.Property</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UserControl\Sale\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>11655</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,95 @@
+D:\Work\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.DataAccess.dll
+D:\Work\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.DataAccess.pdb
+D:\Work\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.DataAccess.xml
+D:\Work\AIMERP\AIMERP.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+D:\Work\AIMERP\AIMERP.DataAccess\obj\Debug\AIMERP.DataAccess.Resources.resources
+D:\Work\AIMERP\AIMERP.DataAccess\obj\Debug\GenerateResource.read.1.tlog
+D:\Work\AIMERP\AIMERP.DataAccess\obj\Debug\GenerateResource.write.1.tlog
+D:\Work\AIMERP\AIMERP.DataAccess\obj\Debug\AIMERP.DataAccess.dll
+D:\Work\AIMERP\AIMERP.DataAccess\obj\Debug\AIMERP.DataAccess.xml
+D:\Work\AIMERP\AIMERP.DataAccess\obj\Debug\AIMERP.DataAccess.pdb
+D:\Work\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Property.dll
+D:\Work\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Utility.dll
+D:\Work\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Property.pdb
+D:\Work\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Property.xml
+D:\Work\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Utility.pdb
+D:\Work\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Utility.xml
+D:\Project\AIM\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.DataAccess.dll
+D:\Project\AIM\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.DataAccess.pdb
+D:\Project\AIM\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.DataAccess.xml
+D:\Project\AIM\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Property.dll
+D:\Project\AIM\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Utility.dll
+D:\Project\AIM\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Property.pdb
+D:\Project\AIM\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Property.xml
+D:\Project\AIM\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Utility.pdb
+D:\Project\AIM\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Utility.xml
+D:\Project\AIM\AIMERP\AIMERP.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\AIM\AIMERP\AIMERP.DataAccess\obj\Debug\AIMERP.DataAccess.Resources.resources
+D:\Project\AIM\AIMERP\AIMERP.DataAccess\obj\Debug\GenerateResource.read.1.tlog
+D:\Project\AIM\AIMERP\AIMERP.DataAccess\obj\Debug\GenerateResource.write.1.tlog
+D:\Project\AIM\AIMERP\AIMERP.DataAccess\obj\Debug\AIMERP.DataAccess.dll
+D:\Project\AIM\AIMERP\AIMERP.DataAccess\obj\Debug\AIMERP.DataAccess.xml
+D:\Project\AIM\AIMERP\AIMERP.DataAccess\obj\Debug\AIMERP.DataAccess.pdb
+F:\Work\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.DataAccess.dll
+F:\Work\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.DataAccess.pdb
+F:\Work\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.DataAccess.xml
+F:\Work\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Property.dll
+F:\Work\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Utility.dll
+F:\Work\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Property.pdb
+F:\Work\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Property.xml
+F:\Work\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Utility.pdb
+F:\Work\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Utility.xml
+F:\Work\AIMERP\AIMERP.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+F:\Work\AIMERP\AIMERP.DataAccess\obj\Debug\AIMERP.DataAccess.Resources.resources
+F:\Work\AIMERP\AIMERP.DataAccess\obj\Debug\GenerateResource.read.1.tlog
+F:\Work\AIMERP\AIMERP.DataAccess\obj\Debug\GenerateResource.write.1.tlog
+F:\Work\AIMERP\AIMERP.DataAccess\obj\Debug\AIMERP.DataAccess.dll
+F:\Work\AIMERP\AIMERP.DataAccess\obj\Debug\AIMERP.DataAccess.xml
+F:\Work\AIMERP\AIMERP.DataAccess\obj\Debug\AIMERP.DataAccess.pdb
+H:\Work\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.DataAccess.dll
+H:\Work\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.DataAccess.pdb
+H:\Work\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.DataAccess.xml
+H:\Work\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Property.dll
+H:\Work\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Utility.dll
+H:\Work\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Property.pdb
+H:\Work\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Property.xml
+H:\Work\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Utility.pdb
+H:\Work\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Utility.xml
+H:\Work\AIMERP\AIMERP.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+H:\Work\AIMERP\AIMERP.DataAccess\obj\Debug\AIMERP.DataAccess.Resources.resources
+H:\Work\AIMERP\AIMERP.DataAccess\obj\Debug\GenerateResource.read.1.tlog
+H:\Work\AIMERP\AIMERP.DataAccess\obj\Debug\GenerateResource.write.1.tlog
+H:\Work\AIMERP\AIMERP.DataAccess\obj\Debug\AIMERP.DataAccess.dll
+H:\Work\AIMERP\AIMERP.DataAccess\obj\Debug\AIMERP.DataAccess.xml
+H:\Work\AIMERP\AIMERP.DataAccess\obj\Debug\AIMERP.DataAccess.pdb
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.DataAccess.dll
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.DataAccess.pdb
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.DataAccess.xml
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Property.dll
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Utility.dll
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Property.pdb
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Property.xml
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Utility.pdb
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.DataAccess\bin\Debug\AIMERP.Utility.xml
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.DataAccess\obj\Debug\AIMERP.DataAccess.Resources.resources
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.DataAccess\obj\Debug\GenerateResource.read.1.tlog
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.DataAccess\obj\Debug\GenerateResource.write.1.tlog
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.DataAccess\obj\Debug\AIMERP.DataAccess.dll
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.DataAccess\obj\Debug\AIMERP.DataAccess.xml
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.DataAccess\obj\Debug\AIMERP.DataAccess.pdb
+E:\My Project\Freelance\AIMERP\Code\AIMERP.DataAccess\bin\Debug\AIMERP.DataAccess.dll
+E:\My Project\Freelance\AIMERP\Code\AIMERP.DataAccess\bin\Debug\AIMERP.DataAccess.pdb
+E:\My Project\Freelance\AIMERP\Code\AIMERP.DataAccess\bin\Debug\AIMERP.DataAccess.xml
+E:\My Project\Freelance\AIMERP\Code\AIMERP.DataAccess\bin\Debug\AIMERP.Property.dll
+E:\My Project\Freelance\AIMERP\Code\AIMERP.DataAccess\bin\Debug\AIMERP.Utility.dll
+E:\My Project\Freelance\AIMERP\Code\AIMERP.DataAccess\bin\Debug\AIMERP.Property.pdb
+E:\My Project\Freelance\AIMERP\Code\AIMERP.DataAccess\bin\Debug\AIMERP.Property.xml
+E:\My Project\Freelance\AIMERP\Code\AIMERP.DataAccess\bin\Debug\AIMERP.Utility.pdb
+E:\My Project\Freelance\AIMERP\Code\AIMERP.DataAccess\bin\Debug\AIMERP.Utility.xml
+E:\My Project\Freelance\AIMERP\Code\AIMERP.DataAccess\obj\Debug\AIMERP.DataAccess.vbprojResolveAssemblyReference.cache
+E:\My Project\Freelance\AIMERP\Code\AIMERP.DataAccess\obj\Debug\AIMERP.DataAccess.Resources.resources
+E:\My Project\Freelance\AIMERP\Code\AIMERP.DataAccess\obj\Debug\AIMERP.DataAccess.vbproj.GenerateResource.Cache
+E:\My Project\Freelance\AIMERP\Code\AIMERP.DataAccess\obj\Debug\AIMERP.DataAccess.dll
+E:\My Project\Freelance\AIMERP\Code\AIMERP.DataAccess\obj\Debug\AIMERP.DataAccess.xml
+E:\My Project\Freelance\AIMERP\Code\AIMERP.DataAccess\obj\Debug\AIMERP.DataAccess.pdb

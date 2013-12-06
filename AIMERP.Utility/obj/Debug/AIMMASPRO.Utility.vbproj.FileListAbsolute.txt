@@ -1,0 +1,10 @@
+F:\Work\AIMERP\AIMERP.Utility\bin\Debug\AIMMASPRO.Utility.dll
+F:\Work\AIMERP\AIMERP.Utility\bin\Debug\AIMMASPRO.Utility.pdb
+F:\Work\AIMERP\AIMERP.Utility\bin\Debug\AIMMASPRO.Utility.xml
+F:\Work\AIMERP\AIMERP.Utility\obj\Debug\ResolveAssemblyReference.cache
+F:\Work\AIMERP\AIMERP.Utility\obj\Debug\AIMMASPRO.Utility.Resources.resources
+F:\Work\AIMERP\AIMERP.Utility\obj\Debug\GenerateResource.read.1.tlog
+F:\Work\AIMERP\AIMERP.Utility\obj\Debug\GenerateResource.write.1.tlog
+F:\Work\AIMERP\AIMERP.Utility\obj\Debug\AIMMASPRO.Utility.dll
+F:\Work\AIMERP\AIMERP.Utility\obj\Debug\AIMMASPRO.Utility.xml
+F:\Work\AIMERP\AIMERP.Utility\obj\Debug\AIMMASPRO.Utility.pdb

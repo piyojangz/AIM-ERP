@@ -1,0 +1,219 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Master.Master.vb" Inherits="AIMERP.UI.Master" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title id="PageTitle" runat="server">AIM Thai Fruit</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--  HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries  -->
+    <!--[if lt IE 9]>
+        <script src="<%# ResolveURL("~/js/html5shiv.js") %>"></script>
+        <script src="<%# ResolveURL("~/js/respond.min.js") %>"></script>
+    <![endif]-->
+    <link href="<%# ResolveURL("~/css/AIMERP.css") %>" rel="stylesheet" type="text/css" />
+    <link href="<%# ResolveURL("~/css/bootstrap.min.css") %>" rel="stylesheet" type="text/css" />
+    <link href="<%# ResolveURL("~/css/jquery-ui.css") %>" rel="stylesheet" type="text/css" />
+    <script src="<%# ResolveURL("~/js/jquery-1.9.1.js") %>" type="text/javascript"></script>
+    <script src="<%# ResolveURL("~/js/jquery-ui.js") %>" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+    </asp:ToolkitScriptManager>
+    <asp:UpdatePanel ID="UpdatePanel1" UpdateMode="Conditional" runat="server">
+        <ContentTemplate>
+            <div class="master absolute-center">
+                <div class="container">
+                    <div class="blurarea">
+                        <div class="row content-header">
+                            <div class="head">
+                                <div class="panel panel-info">
+                                    <table class="tab-head">
+                                        <tr>
+                                            <td class="left" rowspan="2">
+                                                <img class="logo" src="<%= ResolveURL("~/image/logo.jpg") %>" alt="" />
+                                            </td>
+                                            <td class="right">
+                                                <h3>
+                                                    AIM Thai Fruit</h3>
+                                                <asp:Label ID="lblVersion" runat="server"></asp:Label>
+                                                <div class="dropdown">
+                                                    <button class="btn dropdown-toggle sr-only" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                                                        Dropdown <span class="caret"></span>
+                                                    </button>
+                                                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="Demo.aspx">Demo</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="right">
+                                                &lt;Username&gt;
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 content-nav">
+                                <div class="panel panel-info">
+                                    <div class="panel-body">
+                                        <!-- Collect the nav links, forms, and other content for toggling -->
+                                        <nav class="navbar navbar-default" role="navigation">
+                                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                                <ul class="nav navbar-nav navbar-left">
+                                                    <li><a href="<%= ResolveURL("~/Home.aspx") %>">หน้าหลัก</a></li>
+                                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">ระบบ
+                                                        <b class="caret"></b></a>
+                                                        <ul class="dropdown-menu">
+                                                            <li role="presentation" class="dropdown-header">ข้อมูลระบบ</li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/System/AIMMASORG.aspx") %>">บริษัท / สาขา</a></li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/System/AIMMASEMPINFO.aspx") %>">พนักงาน</a></li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/System/AIMMASAPPROVAL.aspx") %>">การอนุมัติ</a></li>
+                                                            <li role="presentation" class="divider"></li>
+                                                            <li role="presentation" class="dropdown-header">ทำรายการ</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">คลังสินค้า
+                                                        <b class="caret"></b></a>
+                                                        <ul class="dropdown-menu">
+                                                            <li role="presentation" class="dropdown-header">ข้อมูลระบบ</li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/INVEN/AIMMASUOM.aspx") %>">หน่วยนับ</a></li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/INVEN/AIMMASINVENTORY_ORG.aspx") %>">คลังสินค้า</a></li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/INVEN/AIMMASLOCATOR.aspx") %>">คลังสินค้าย่อย</a></li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/INVEN/AIMMASITEM.aspx") %>">สินค้า</a></li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/INVEN/AIMMASORGITEM.aspx") %>">สินค้าตามบริษัท</a></li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/INVEN/AIMMASPRICELIST.aspx") %>">ราคาขาย</a></li>
+                                                            <li role="presentation" class="divider"></li>
+                                                            <li role="presentation" class="dropdown-header">ทำรายการ</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">จัดซื้อ
+                                                        <b class="caret"></b></a>
+                                                        <ul class="dropdown-menu">
+                                                            <li role="presentation" class="dropdown-header">ข้อมูลระบบ</li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/PO/AIMMASSUPPLIER.aspx") %>">ผู้ขาย</a></li>
+                                                            <li role="presentation" class="divider"></li>
+                                                            <li role="presentation" class="dropdown-header">ทำรายการ</li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/PO/AIMTRNPQUO.aspx") %>">ใบเสนอราคา</a></li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/PO/AIMTRNPR.aspx") %>">ใบขอซื้อสินค้า</a></li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/PO/AIMTRNPO.aspx") %>">ใบสั่งซื้อสินค้า</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">ขาย
+                                                        <b class="caret"></b></a>
+                                                        <ul class="dropdown-menu">
+                                                            <li role="presentation" class="dropdown-header">ข้อมูลระบบ</li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/Sales/AIMMASCUSTOMER.aspx") %>">ลูกค้า</a></li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/Sales/AIMMASPRO.aspx") %>">โปรโมชั่น</a></li>
+                                                            <li role="presentation" class="divider"></li>
+                                                            <li role="presentation" class="dropdown-header">ทำรายการ</li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/Sales/AIMTRNSQUO.aspx") %>">ใบเสนอราคา</a></li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/Sales/AIMTRNSALES.aspx") %>">ใบขายสินค้า</a></li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/Sales/AIMTRNRETURN.aspx") %>">ใบคืนสินค้า</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">จัดส่ง
+                                                        <b class="caret"></b></a>
+                                                        <ul class="dropdown-menu">
+                                                            <li role="presentation" class="dropdown-header">ข้อมูลระบบ</li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/DO/AIMMASCAR.aspx") %>">รถส่งสินค้า</a></li>
+                                                            <li role="presentation" class="divider"></li>
+                                                            <li role="presentation" class="dropdown-header">ทำรายการ</li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/DO/AIMTRNDELIVERY.aspx") %>">การจัดส่งสินค้า</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">การเงิน
+                                                        <b class="caret"></b></a>
+                                                        <ul class="dropdown-menu">
+                                                            <li role="presentation" class="dropdown-header">ข้อมูลระบบ</li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/FIN/AIMMASTAX.aspx") %>">ภาษีการซื้อ</a></li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/FIN/AIMMASSALESVAT.aspx") %>">ภาษีการขาย</a></li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/FIN/AIMMASPAYTERM.aspx") %>">เงื่อนไขการชำระ</a></li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/FIN/AIMMASRECTERM.aspx") %>">เงื่อนไขการรับชำระ</a></li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/FIN/AIMMASBANK.aspx") %>">ธนาคาร</a></li>
+                                                            <li role="presentation" class="divider"></li>
+                                                            <li role="presentation" class="dropdown-header">ทำรายการ</li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/FIN/AIMTRNPAYMENT.aspx") %>">การชำระเงิน</a></li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/FIN/AIMTRNBILLING.aspx") %>">การเรียกเก็บเงิน</a></li>
+                                                            <li><a href="<%= ResolveURL("~/ERP/FIN/AIMTRNRECEIPT.aspx") %>">การรับชำระเงิน</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                                <ul class="nav navbar-nav navbar-right">
+                                                    <li><a href="<%= ResolveURL("~/Demo.aspx") %>">Demo</a></li>
+                                                </ul>
+                                            </div>
+                                            <!-- /.navbar-collapse -->
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <%--<div class="left-nav">
+                                <div class="col-md-2 menu">
+                                    <div class="dropdown clearfix  affix-top" data-spy="affix" data-offset-top="150">
+                                        <ul class="dropdown-menu" role="menu" style="display: block; position: static;">
+                                            <li style="text-align: center;"><a href="#">
+                                                <h4>
+                                                    AIM Thai Fruit</h4>
+                                            </a>
+                                                <asp:Label ID="lblSideNav" runat="server"></asp:Label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>--%>
+                            <div class="right-content">
+                                <asp:Panel ID="pnlTemplate1" runat="server">
+                                    <div class="col-md-12 content-body">
+                                        <div class="panel panel-info">
+                                            <div class="panel-heading">
+                                                <h4>
+                                                    <asp:Label ID="lblFunctionName" runat="server" Text="FunctionName"></asp:Label></h4>
+                                                <asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server">
+                                                </asp:ContentPlaceHolder>
+                                            </div>
+                                            <div class="panel-body">
+                                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                                </asp:ContentPlaceHolder>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </asp:Panel>
+                                <asp:Panel ID="pnlTemplate2" runat="server" Visible="false">
+                                    <div class="col-md-12 content-body">
+                                        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                                        </asp:ContentPlaceHolder>
+                                    </div>
+                                </asp:Panel>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+            </asp:ContentPlaceHolder>
+        </ContentTemplate>
+    </asp:UpdatePanel>
+    <script src="<%= ResolveURL("~/js/bootstrap.min.js") %>" type="text/javascript"></script>
+    <script src="<%= ResolveURL("~/js/jquery.placeholder.js") %>" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("input").tooltip({ html: true });
+            $("a").tooltip({ html: true });
+            $("img").tooltip({ html: true });
+        });
+    </script>
+    <div class="host-name">
+        <asp:Label ID="lblHostName" runat="server" Text="Label"></asp:Label>
+    </div>
+    </form>
+</body>
+</html>

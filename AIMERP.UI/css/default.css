@@ -1,0 +1,751 @@
+﻿body
+{
+    /*padding:0px;
+    margin:0 auto;
+    font-family:Tahoma;
+    font-size:12px;*/
+}
+
+body a
+{
+	display:block;
+	height:auto;
+	line-height:30px;
+}
+
+/* Form Data Entry*/
+.divMain
+{
+    padding:0px;
+}
+
+.tableMain
+{
+    padding:0px;
+    width:100%;
+}
+
+.formTab
+{
+    border:solid 1px #FFCCFF;
+    width:800px;           
+	/*border-collapse: collapse;*/
+}
+
+.formTab td
+{
+    /*border:solid 1px #FFCCFF;*/
+}
+
+.tabBorder
+{
+    border:solid 1px #FFCCFF;
+}
+
+.searchTab
+{
+    border:solid 1px #FFCCFF;
+    width:100%;
+}
+
+.headerCol
+{
+    text-align:center;
+    background-color:#FFC1FF;
+    font-weight:bold;
+    font-size:14px;
+	/*background-image:url('../Image/Backgroung/menuBg.png');
+	background-repeat:repeat-x;
+	height:23px;*/
+    /*color:White;*/
+}
+.subHeaderCol
+{
+    text-align:left;
+    background-color:#FFC1FF;
+    font-weight:bold;
+    font-size:14px;
+    color:Gray;
+	/*background-image:url('../Image/Backgroung/menuBg.png');
+	background-repeat:repeat-x;
+	height:23px;*/
+}
+
+.leftCol /*Add By Photchaman 30/11/2013*/
+{
+    text-align: right;
+    }
+.leftColW125
+{
+    text-align:right;
+    width: 125px;
+}
+
+.midCol
+{
+    text-align:center;
+    vertical-align:top;
+    width:1px;
+}
+
+.rightCol /*Add By Photchaman 30/11/2013*/
+{
+    text-align:left;
+    width: 425px;
+}
+
+.rightColW275
+{
+    text-align:left;
+    vertical-align:top;    
+    width: 275px;
+}
+
+.footCol
+{
+    text-align:right;
+    background-color:#FFC1FF;
+    color:White;
+    font-weight:bold;
+    font-size:12px;
+}
+
+.navigateCol
+{
+	text-align:right;
+    font-weight:bold;
+    font-size:12px;
+    border-top: solid 1px #FFC1FF;
+    background-image:url('../Image/Backgroung/txtBg.jpg');
+    background-repeat:repeat-x;
+}
+
+.listItemOdd
+{
+	border:none;	
+	border-collapse: collapse; 
+	background-color:#FFEAFF; 
+}
+
+.listItemOdd:hover
+{
+    background-color:#FFFFCC;
+}
+
+.listItemOdd td:hover
+{
+    /*background-color:#CCFFCC;*/
+}
+
+.listItemEven
+{
+    
+} 
+
+.listItemEven:hover
+{
+    background-color:#FFFFCC; 
+}
+
+.listItemEven td:hover
+{
+    /*background-color:#CCFFCC; */
+}
+
+.listItemHighLight 
+{
+	border:none;	
+	border-collapse: collapse; 
+    background-color:#CCFFCC; 
+}
+
+.listItemHighLight:hover
+{
+    /*background-color:#99FFFF; */
+}
+
+.listItemHighLight td:hover
+{
+    /*background-color:#FFFF99; */
+}
+
+.resultDiv
+{
+    width:100%; 
+    height:200px;
+    overflow-y:scroll;    
+    border:solid 0px white;
+}
+
+.resultTab
+{
+    width:100%; 
+    border:solid 1px #FFCCFF;     
+}
+
+.popUpResultDiv
+{
+    width:100%; 
+    height:150px;
+    overflow-y:scroll; 
+    border:solid 0px white;
+}
+
+.popUpresultTab
+{
+    width:100%; 
+    border:solid 1px #FFCCFF;     
+}
+
+.ubcBtn {
+    BORDER-RIGHT: #370B08 2px solid;
+    PADDING-RIGHT: 1px;
+    BORDER-TOP: #DBA19D 2px solid;
+    PADDING-LEFT: 1px;
+    FONT: bold 11px MS Sans Serif, Tahoma,  sans-serif;
+    TEXT-TRANSFORM: uppercase;
+    BORDER-LEFT: #BE5650 1px solid;
+    COLOR: #F4E2E0;
+    BORDER-BOTTOM: #2B0907 2px solid;
+    BACKGROUND-COLOR: #AA221A;
+}
+
+.txtReq
+{
+    border-right:1px solid #d1c7ac;
+	border-top:1px solid #d1c7ac;
+	border-bottom:1px solid #d1c7ac;
+	background-image:url('../Image/Backgroung/txtBg.jpg');
+    background-repeat:repeat-x;
+    /*width:230px;*/
+    color:#333333;
+    padding:3px;
+    font-family:tahoma, arial, sans-serif;
+    border-left:solid 3px red;
+	margin-top:0px;
+}
+.ddlReq
+{
+    background-color:#FFDDDD;
+    border-left:1px solid #d1c7ac;
+	border-top:1px solid #d1c7ac;
+	border-bottom:1px solid #d1c7ac;
+    /*background-repeat:repeat-x;*/
+    /*border-right:solid 3px red;*/
+}
+
+.txtReq:hover
+{
+    border-right:1px solid #efdf00;
+	border-top:1px solid #efdf00;
+	border-bottom:1px solid #efdf00;
+    border-left:solid 3px red;
+}
+
+.txt
+{
+    background-image:url('../Image/Backgroung/txtBg.jpg');
+	background-repeat:repeat-x;
+	border:1px solid #d1c7ac;
+	/*width:230px;*/
+	color:Black;
+	padding:3px;
+	font-family:tahoma, arial, sans-serif;
+	margin-bottom: 0px;
+}  
+
+.txt:hover
+{
+	border:1px solid #efdf00;
+}  
+
+.txtW250
+{
+    background-image:url('../Image/Backgroung/txtBg.jpg');
+	background-repeat:repeat-x;
+	border:1px solid #d1c7ac;
+	width:170px;
+	color:Black;
+	padding:3px;
+	font-family:tahoma, arial, sans-serif;
+	margin-bottom: 0px;
+} 
+
+.ddlWFree
+{
+    background-image:url('../Image/Backgroung/txtBg.jpg');
+	background-repeat:repeat-x;
+	border:1px solid #d1c7ac;
+	color:Black;
+	padding:3px;
+	font-family:tahoma, arial, sans-serif;
+	margin-bottom: 0px;
+}
+
+.btnSearch
+{
+    cursor:hand; 
+}
+
+.btnSearch
+{
+    cursor:hand; 
+}
+
+/*Modal Popup*/
+.modalBackground {
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+.modalPopup {
+	background-color:White;
+	border:solid 1px #FFCCFF;	
+	padding:3px;
+	width:300px;
+	text-align:center;	
+}
+
+.modalPopup Table
+{
+	background-color:White;
+}
+
+.messageImage
+{
+	margin: 15px;
+}
+
+.updateProgress
+{
+	/*border:solid 1px #FFCCFF;	
+	background-color: #FFFFFF;*/
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	text-align:center;
+	color: White;
+	font-size:16px;
+	font-weight:bold;	
+}
+
+.updateTable td
+{
+	
+}
+
+/*Popup Control*/
+.popupControl{
+	background-color:White;
+	/*position:absolute;
+	visibility:hidden;*/
+	border:solid 1px #FFCCFF;
+}
+
+/*Bee 14/07/2010 */
+.Grid 
+{ 
+	border: double 2px #FFCCFF; 
+	background-color: White;
+	font-family:Tahoma;
+	font-size:small;
+	color:White;
+}
+.Grid td
+{
+	border: none 1px #999999;
+}
+.GridHeader
+{
+	text-align: center;
+	font-size: small; 
+	font-family: Tahoma; 
+	font-weight: bold;
+	color:White;
+	padding: 0px 0px 0px 0px;
+	background-color: #666666;
+	background-repeat:repeat;
+	/*background-image:url('../Images/GridHead.png');*/
+}
+.GridHeader1
+{
+	text-align: center;
+	font-size: small; 
+	font-weight: bold;
+	color:White;
+	padding: 0px 0px 0px 0px;
+	background-color:Yellow;
+}
+.GridHeader a
+{
+	color:White;
+    font-weight: bold;
+	text-decoration: none;
+	display: block;
+}
+.GridAltItem
+{
+	background-color: #eeeeee;
+}
+.GridPage
+{
+	background-color:#CCCCCC;
+	text-align:center;
+}
+
+.GridRowStyle
+{
+	background-color:#F3F3F3;
+}
+
+.GridSelect
+{
+background-color:#fc7bc6;
+}
+.MouseOverGridItem
+{
+background-color: #fbbce1;
+}
+.HiddenColumn
+{
+        display:none;
+}
+/*Bee 14/07/2010 */
+
+.btn75
+{
+	background-image:url('../Image/Backgroung/txtBg.jpg');
+	background-repeat:repeat-x;
+	background-position: 0 -12px;
+	border-bottom: solid 1px silver;
+	border-right: solid 1px silver;
+	border-top: solid 1px WhiteSmoke;
+	border-left: solid 1px WhiteSmoke;
+	color:Black;
+	padding:3px;
+	/*font-weight:bold;*/
+	font-family:tahoma, arial, sans-serif;
+	margin-bottom: 0px;
+	cursor:hand;
+	width:75px;
+}
+
+.btn75:hover
+{
+	/*background-image:url('../Image/Backgroung/txtBgInvers.jpg');*/
+	background-repeat:repeat; /*repaet-x*/
+	/*border:1px solid #efdfcf;*/
+	
+	border-bottom: solid 1px gray;
+	border-right: solid 1px gray;
+	border-top: solid 1px gainsboro;
+	border-left: solid 1px gainsboro;
+	
+	/*background-position: 0 0px;*/
+	color:Black;
+	padding:3px;
+	font-family:tahoma, arial, sans-serif;
+	margin-bottom: 0px;
+	width:75px;
+}
+
+.btn75:active
+{
+	background-color:WhiteSmoke;
+	background-image:url('');
+	background-repeat:repeat-x;
+	border:1px solid Silver;
+	padding:3px;
+	font-family:tahoma, arial, sans-serif;
+	margin-bottom: 0px;
+	width:75px;
+}
+
+.btn100
+{
+	background-image:url('../Image/Backgroung/txtBg.jpg');
+	background-repeat:repeat-x;
+	border:1px solid Gainsboro;
+	color:Black;
+	padding:3px;
+	font-weight:bold;
+	font-family:tahoma, arial, sans-serif;
+	margin-bottom: 0px;
+	cursor:hand;
+	width:100px;
+}
+
+.btn100:hover
+{
+	background-image:url('../Image/Backgroung/txtBgInvers.jpg');
+	background-repeat:repeat-x;
+	border:1px solid Silver;
+	color:Black;
+	padding:3px;
+	font-family:tahoma, arial, sans-serif;
+	margin-bottom: 0px;
+	width:100px;
+}
+
+.btn100:active
+{
+	background-color:WhiteSmoke;
+	background-image:url('');
+	background-repeat:repeat-x;
+	border:1px solid Silver;
+	padding:3px;
+	font-family:tahoma, arial, sans-serif;
+	margin-bottom: 0px;
+	width:100px;
+}
+
+/*******************************************************/
+/* Menu Css **/
+
+.menu
+{
+	/*width:100%;*/
+	text-align:left;	
+	background-repeat:repeat;
+	float:left;
+}
+
+.menu a
+{
+	padding: 0px 0px 0px 8px;
+	line-height:35px;
+	display:block;
+	height:35px;
+	text-decoration:none;	
+	background-repeat:repeat;
+	background-image:url('../Image/Backgroung/menuBg.gif');
+	background-color:Black;	
+	color:Silver;
+	font-size:11px;
+	font-weight:bold;
+	cursor:hand;
+	
+	/*Temp Border*/
+	/*border:solid 1px red;*/
+}
+
+.menu a b
+{
+	float:left;
+	padding:0px 16px 0 8px;
+	display:block;
+	height:35px;
+	
+	/*Temp Border*/
+	/*border:solid 1px white;*/
+}
+
+.menu a:hover
+{
+	background-image:url('../Image/Backgroung/menuNormal.gif');
+	color:White;
+}
+
+.menu a:hover b
+{
+	background-image:url('../Image/Backgroung/menuNormal.gif');
+	background-position: right top;
+}
+
+.menu a:active
+{
+	background-image:url('../Image/Backgroung/menuCurrent.gif');
+}
+
+.menu a:active b
+{
+	background-image:url('../Image/Backgroung/menuCurrent.gif');
+	background-position: right top;
+}
+
+
+.menu a b
+{
+	float:right;
+	padding: 0px 0px 0px 10px;
+}
+
+.menuItem
+{
+	/*width:100%;*/
+}
+
+.menuIndent
+{
+	float:left;
+	display:block;
+	padding: 0px 0px 0px 7px;
+	background-image:url('');
+	
+	/*Temp Border*/
+	/*border:solid 1px;*/
+}
+
+.normalImage
+{
+	padding: 0px 5px 0px 10px;	
+	background-image:url('../Image/Backgroung/normalArrow.png');
+	background-position: center;
+	background-repeat:no-repeat;
+	color:Black;
+		
+	/*Temp Border*/
+	/*border:solid 1px lightblue;*/
+}
+
+.currentImage
+{
+	padding: 0px 5px 0px 10px;
+	background-image:url('../Image/Backgroung/currentArrow.png');
+	background-position: center;
+	background-repeat:no-repeat;
+	color:Black;
+	
+	/*Temp Border*/
+	/*border:solid 1px lightblue;*/
+}
+
+.linkImage
+{
+	padding: 0px 5px 0px 10px;
+	background-image:url('../Image/Backgroung/linkImage.png');
+	background-position: center;
+	background-repeat:no-repeat;
+	color:Black;
+	
+	/*Temp Border*/
+	/*border:solid 1px lightblue;*/
+}
+
+.menuCurrent a
+{
+	padding: 0px 0px 0px 8px;
+	line-height:35px;
+	display:block;
+	height:35px;
+	text-decoration:none;	
+	background-repeat:repeat;
+	background-image:url('../Image/Backgroung/menuCurrent.gif');
+	color:White;
+	/*width:100%;*/
+}
+
+.menuCurrent a b
+{
+	background-image:url('../Image/Backgroung/menuCurrent.gif');
+	background-position: right top;
+}
+
+/*Asp.net Menu*/
+.NewMenu
+{
+    text-align: left;
+}
+.NewMenu table
+{
+}
+.NewMenu table tr
+{
+}
+.NewMenu table tr td
+{
+    background-image: url('../Image/Backgroung/menuBg.gif');
+}
+.NewMenu table tr td a
+{
+    display: block;
+    height: 35px;
+    text-decoration: none;
+    padding: 0px 0px 0px 8px;
+    line-height: 35px;
+    color: White;
+    font-weight: bold;
+    width:200px;
+}
+.NewMenu table tr td a:hover
+{
+	background-image:url('../Image/Backgroung/menuNormal.gif');
+    color: White;
+}
+.NewMenu table tr td a:active
+{
+	background-image:url('../Image/Backgroung/menuCurrent.gif');
+    color: White;
+}
+
+/*New Menu 2*/
+.NewMenu2
+{
+    text-align: left;
+}
+.NewMenu2 table
+{
+}
+.NewMenu2 table tr
+{
+}
+.NewMenu2 table tr td
+{
+    background-image: url('../Image/Backgroung/menuBg2.gif');
+}
+.NewMenu2 table tr td a
+{
+    display: block;
+    height: 35px;
+    text-decoration: none;
+    padding: 0px 0px 0px 8px;
+    line-height: 35px;
+    color: White;
+    font-weight: bold;
+    width:200px;
+}
+.NewMenu2 table tr td a:hover
+{
+	background-image:url('../Image/Backgroung/menuNormal2.gif');
+    color: Black;
+}
+.NewMenu table tr td a:active
+{
+	background-image:url('../Image/Backgroung/menuCurrent2.gif');
+    color: White;
+}
+
+.bgPageIndex
+{
+	padding: 0px 0px 0px 0px;
+	text-decoration:none;
+	background-repeat:repeat;
+	background-image:url('../Images/GridNavi.png');
+}
+.collapsePanelHeader{	
+	width:100%;		
+	height:25px;
+    color:#f928a1;
+    background-color:#fdecf4;
+}
+
+/*add backgroun style by Chatree 03/08/2555*/
+.bgBottom
+{
+    background:url(../images/left_left_but.png) left bottom no-repeat;
+}
+.bgTop
+{
+    /*background:url(../images/left_left_top.png) left top no-repeat;*/
+}
+.bgcolor
+{
+    background-color:#ee028b;
+}
+.HeadbarUC
+{
+    height:30px; 
+    color:White;
+    background-color:#555555;
+}

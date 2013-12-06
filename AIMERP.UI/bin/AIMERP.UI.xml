@@ -1,0 +1,5435 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AIMERP.UI
+</name>
+</assembly>
+<members>
+<member name="P:AIMERP.UI.AIMMASEMPINFO.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchCustomer.btnSearch">
+	<summary>
+btnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchCustomer.UpdatePanel1">
+	<summary>
+UpdatePanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchCustomer.rptResult">
+	<summary>
+rptResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchCustomer.lblKeyTarget">
+	<summary>
+lblKeyTarget control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchCustomer.lblValueTarget">
+	<summary>
+lblValueTarget control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchCustomer.lblFilter">
+	<summary>
+lblFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchSalesTax.btnSearch">
+	<summary>
+btnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchSalesTax.UpdatePanel1">
+	<summary>
+UpdatePanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchSalesTax.rptResult">
+	<summary>
+rptResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchSalesTax.lblKeyTarget">
+	<summary>
+lblKeyTarget control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchSalesTax.lblValueTarget">
+	<summary>
+lblValueTarget control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchSalesTax.lblFilter">
+	<summary>
+lblFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:AIMERP.UI.AIMMASCAR.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="P:AIMERP.UI.AIMMASAPPROVAL.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="P:AIMERP.UI.AIMMASTAX.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.ToolBar">
+	<summary>
+ToolBar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.liHead">
+	<summary>
+liHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.lbtHead">
+	<summary>
+lbtHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.liDetail">
+	<summary>
+liDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.lbtDetail">
+	<summary>
+lbtDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.liSearch">
+	<summary>
+liSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.lbtSearch">
+	<summary>
+lbtSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.pnlHead">
+	<summary>
+pnlHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.TextBox10">
+	<summary>
+TextBox10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.txtId">
+	<summary>
+txtId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.TextBox7">
+	<summary>
+TextBox7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.TextBox1">
+	<summary>
+TextBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.btnSearch3">
+	<summary>
+btnSearch3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.txtField1">
+	<summary>
+txtField1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.btnSearch">
+	<summary>
+btnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.txtField2">
+	<summary>
+txtField2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.btnSearch1">
+	<summary>
+btnSearch1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.TextBox3">
+	<summary>
+TextBox3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.btnSearch4">
+	<summary>
+btnSearch4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.txtField3">
+	<summary>
+txtField3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.btnSearch0">
+	<summary>
+btnSearch0 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.txtField4">
+	<summary>
+txtField4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.btnSearch2">
+	<summary>
+btnSearch2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.TextBox5">
+	<summary>
+TextBox5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.btnSearch5">
+	<summary>
+btnSearch5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.txtField5">
+	<summary>
+txtField5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.TextBox8">
+	<summary>
+TextBox8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.btnSearch6">
+	<summary>
+btnSearch6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.txtField7">
+	<summary>
+txtField7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.txtField7_CalendarExtender">
+	<summary>
+txtField7_CalendarExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.txtField8">
+	<summary>
+txtField8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.txtField8_CalendarExtender">
+	<summary>
+txtField8_CalendarExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.txtField6">
+	<summary>
+txtField6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.Button12">
+	<summary>
+Button12 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.Button13">
+	<summary>
+Button13 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.Button14">
+	<summary>
+Button14 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.Button15">
+	<summary>
+Button15 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.Button16">
+	<summary>
+Button16 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.pnlDetailFromQuotation">
+	<summary>
+pnlDetailFromQuotation control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.rptResult">
+	<summary>
+rptResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.txtId0">
+	<summary>
+txtId0 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.txtId1">
+	<summary>
+txtId1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.txtId2">
+	<summary>
+txtId2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.TextBox2">
+	<summary>
+TextBox2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.pnlDetailCreateNew">
+	<summary>
+pnlDetailCreateNew control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.DropDownList4">
+	<summary>
+DropDownList4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.TextBox19">
+	<summary>
+TextBox19 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.DropDownList5">
+	<summary>
+DropDownList5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.TextBox20">
+	<summary>
+TextBox20 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.TextBox21">
+	<summary>
+TextBox21 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.TextBox22">
+	<summary>
+TextBox22 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.Button17">
+	<summary>
+Button17 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.Button18">
+	<summary>
+Button18 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.btnSearch8">
+	<summary>
+btnSearch8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.rptResult0">
+	<summary>
+rptResult0 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.txtId3">
+	<summary>
+txtId3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.txtId4">
+	<summary>
+txtId4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.txtId5">
+	<summary>
+txtId5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.TextBox23">
+	<summary>
+TextBox23 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.Button19">
+	<summary>
+Button19 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.pnlSearch">
+	<summary>
+pnlSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.TextBox6">
+	<summary>
+TextBox6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.TextBox9">
+	<summary>
+TextBox9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.TextBox11">
+	<summary>
+TextBox11 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.Button3">
+	<summary>
+Button3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.pnlResult">
+	<summary>
+pnlResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.Repeater1">
+	<summary>
+Repeater1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.RepeaterNavigateBar">
+	<summary>
+RepeaterNavigateBar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSALES.MessageBox1">
+	<summary>
+MessageBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:AIMERP.UI.AIMTRNSALES.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchUOM.btnSearch">
+	<summary>
+btnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchUOM.UpdatePanel1">
+	<summary>
+UpdatePanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchUOM.rptResult">
+	<summary>
+rptResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchUOM.lblKeyTarget">
+	<summary>
+lblKeyTarget control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchUOM.lblValueTarget">
+	<summary>
+lblValueTarget control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchUOM.lblFilter">
+	<summary>
+lblFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:AIMERP.UI.AIMMASLOCATOR.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:AIMERP.UI.Master.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Master.PageTitle">
+	<summary>
+PageTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Master.head">
+	<summary>
+head control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Master.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Master.ToolkitScriptManager1">
+	<summary>
+ToolkitScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Master.lblVersion">
+	<summary>
+lblVersion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Master.pnlTemplate1">
+	<summary>
+pnlTemplate1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Master.lblFunctionName">
+	<summary>
+lblFunctionName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Master.ContentPlaceHolder4">
+	<summary>
+ContentPlaceHolder4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Master.ContentPlaceHolder1">
+	<summary>
+ContentPlaceHolder1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Master.pnlTemplate2">
+	<summary>
+pnlTemplate2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Master.ContentPlaceHolder2">
+	<summary>
+ContentPlaceHolder2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Master.ContentPlaceHolder3">
+	<summary>
+ContentPlaceHolder3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Master.lblHostName">
+	<summary>
+lblHostName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchCurrency.btnSearch">
+	<summary>
+btnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchCurrency.UpdatePanel1">
+	<summary>
+UpdatePanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchCurrency.rptResult">
+	<summary>
+rptResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchCurrency.lblKeyTarget">
+	<summary>
+lblKeyTarget control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchCurrency.lblValueTarget">
+	<summary>
+lblValueTarget control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchCurrency.lblFilter">
+	<summary>
+lblFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:AIMERP.UI.AIMMASRECTERM.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="P:AIMERP.UI.AIMMASITEM.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:AIMERP.UI.RepeaterNavigateBar.lblTotalRecord">
+	<summary>
+lblTotalRecord control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.RepeaterNavigateBar.hdfCurrentSeq">
+	<summary>
+hdfCurrentSeq control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.RepeaterNavigateBar.hdfCurrentCol">
+	<summary>
+hdfCurrentCol control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.RepeaterNavigateBar.imbFirst">
+	<summary>
+imbFirst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.RepeaterNavigateBar.imbBack">
+	<summary>
+imbBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.RepeaterNavigateBar.lblCurrentPage">
+	<summary>
+lblCurrentPage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.RepeaterNavigateBar.lblTotalPage">
+	<summary>
+lblTotalPage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.RepeaterNavigateBar.imbNext">
+	<summary>
+imbNext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.RepeaterNavigateBar.imbLast">
+	<summary>
+imbLast control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.RepeaterNavigateBar.ddlPage">
+	<summary>
+ddlPage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Demo.ToolBar">
+	<summary>
+ToolBar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Demo.txtId">
+	<summary>
+txtId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Demo.pusField">
+	<summary>
+pusField control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Demo.txtField1">
+	<summary>
+txtField1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Demo.PopUpSearchField1">
+	<summary>
+PopUpSearchField1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Demo.txtField2">
+	<summary>
+txtField2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Demo.txtField3">
+	<summary>
+txtField3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Demo.txtField4">
+	<summary>
+txtField4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Demo.lblStatus">
+	<summary>
+lblStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Demo.pnlResult">
+	<summary>
+pnlResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Demo.rptResult">
+	<summary>
+rptResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Demo.RepeaterNavigateBar">
+	<summary>
+RepeaterNavigateBar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Demo.MessageBox">
+	<summary>
+MessageBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:AIMERP.UI.Demo.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="P:AIMERP.UI.AIMMASPAYTERM.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="P:AIMERP.UI.AIMMASINVENTORY_ORG.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="P:AIMERP.UI.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:AIMERP.UI.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:AIMERP.UI.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:AIMERP.UI.AIMTRNPO.ToolBar">
+	<summary>
+ToolBar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.liHead">
+	<summary>
+liHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.lbtHead">
+	<summary>
+lbtHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.liDetail">
+	<summary>
+liDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.lbtDetail">
+	<summary>
+lbtDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.liSearch">
+	<summary>
+liSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.lbtSearch">
+	<summary>
+lbtSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.pnlHead">
+	<summary>
+pnlHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.TextBox10">
+	<summary>
+TextBox10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.txtId">
+	<summary>
+txtId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.txtCreate_Date">
+	<summary>
+txtCreate_Date control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.txtCreate_Date_CalendarExtender">
+	<summary>
+txtCreate_Date_CalendarExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.txtCustomer_Id">
+	<summary>
+txtCustomer_Id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.Button3">
+	<summary>
+Button3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.txtCustomer_Name">
+	<summary>
+txtCustomer_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.txtPromotion_Status">
+	<summary>
+txtPromotion_Status control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.hdfPromotion_Status">
+	<summary>
+hdfPromotion_Status control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.txtCustomer_Site_Name">
+	<summary>
+txtCustomer_Site_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.PopUpSearchSite1">
+	<summary>
+PopUpSearchSite1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.hdfCustomer_Site_Id">
+	<summary>
+hdfCustomer_Site_Id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.TextBox28">
+	<summary>
+TextBox28 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.btnSearch0">
+	<summary>
+btnSearch0 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.txtField5">
+	<summary>
+txtField5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.txtCurrency_Name">
+	<summary>
+txtCurrency_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.PopUpSearchCurrency1">
+	<summary>
+PopUpSearchCurrency1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.hdfCurrency_Code">
+	<summary>
+hdfCurrency_Code control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.TextBox30">
+	<summary>
+TextBox30 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.TextBox36">
+	<summary>
+TextBox36 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.btnSearch12">
+	<summary>
+btnSearch12 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.TextBox33">
+	<summary>
+TextBox33 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.txtTerm">
+	<summary>
+txtTerm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.PopUpSearchReceiveTerm1">
+	<summary>
+PopUpSearchReceiveTerm1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.hdfTerm_Id">
+	<summary>
+hdfTerm_Id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.TextBox34">
+	<summary>
+TextBox34 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.TextBox35">
+	<summary>
+TextBox35 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.btnSearch11">
+	<summary>
+btnSearch11 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.txtField11">
+	<summary>
+txtField11 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.Button12">
+	<summary>
+Button12 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.Button13">
+	<summary>
+Button13 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.Button14">
+	<summary>
+Button14 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.pnlDetail">
+	<summary>
+pnlDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.TextBox5">
+	<summary>
+TextBox5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.Button7">
+	<summary>
+Button7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.txtItem_Id">
+	<summary>
+txtItem_Id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.Button4">
+	<summary>
+Button4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.txtItem_Name">
+	<summary>
+txtItem_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.txtUOM_Name">
+	<summary>
+txtUOM_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.PopUpSearchUOM1">
+	<summary>
+PopUpSearchUOM1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.hdfUOM_Code">
+	<summary>
+hdfUOM_Code control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.txtItem_Name0">
+	<summary>
+txtItem_Name0 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.txtItem_Name1">
+	<summary>
+txtItem_Name1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.txtItem_Name2">
+	<summary>
+txtItem_Name2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.txtRequest_Date">
+	<summary>
+txtRequest_Date control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.txtRequest_Date_CalendarExtender">
+	<summary>
+txtRequest_Date_CalendarExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.CheckBox1">
+	<summary>
+CheckBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.CheckBox2">
+	<summary>
+CheckBox2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.txtItem_Name3">
+	<summary>
+txtItem_Name3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.Button1">
+	<summary>
+Button1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.Button2">
+	<summary>
+Button2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.btnSearch7">
+	<summary>
+btnSearch7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.rptDetail">
+	<summary>
+rptDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.pnSubDetail">
+	<summary>
+pnSubDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.pnlSearch">
+	<summary>
+pnlSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.TextBox2">
+	<summary>
+TextBox2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.TextBox3">
+	<summary>
+TextBox3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.Button6">
+	<summary>
+Button6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.TextBox6">
+	<summary>
+TextBox6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.Button5">
+	<summary>
+Button5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.TextBox9">
+	<summary>
+TextBox9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.pnlResult">
+	<summary>
+pnlResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.rptResult">
+	<summary>
+rptResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.RepeaterNavigateBar">
+	<summary>
+RepeaterNavigateBar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPO.MessageBox1">
+	<summary>
+MessageBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:AIMERP.UI.AIMTRNPO.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="P:AIMERP.UI.My.MyWebExtension.Application">
+	<summary>
+ Returns information about the current application.
+ </summary>
+</member><member name="P:AIMERP.UI.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:AIMERP.UI.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:AIMERP.UI.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:AIMERP.UI.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:AIMERP.UI.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="P:AIMERP.UI.My.MyWebExtension.WebServices">
+	<summary>
+ Provides access to WebServices added to this project.
+ </summary>
+</member><member name="T:AIMERP.UI.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchReceiveTerm.btnSearch">
+	<summary>
+btnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchReceiveTerm.UpdatePanel1">
+	<summary>
+UpdatePanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchReceiveTerm.rptResult">
+	<summary>
+rptResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchReceiveTerm.lblKeyTarget">
+	<summary>
+lblKeyTarget control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchReceiveTerm.lblValueTarget">
+	<summary>
+lblValueTarget control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchReceiveTerm.lblFilter">
+	<summary>
+lblFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.ToolBar">
+	<summary>
+ToolBar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.liHead">
+	<summary>
+liHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.lbtHead">
+	<summary>
+lbtHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.liDetail">
+	<summary>
+liDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.lbtDetail">
+	<summary>
+lbtDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.liSearch">
+	<summary>
+liSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.lbtSearch">
+	<summary>
+lbtSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.pnlHead">
+	<summary>
+pnlHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.TextBox10">
+	<summary>
+TextBox10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.txtId">
+	<summary>
+txtId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.txtField7">
+	<summary>
+txtField7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.txtField7_CalendarExtender">
+	<summary>
+txtField7_CalendarExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.txtField8">
+	<summary>
+txtField8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.TextBox1">
+	<summary>
+TextBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.TextBox19">
+	<summary>
+TextBox19 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.TextBox18">
+	<summary>
+TextBox18 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.TextBox20">
+	<summary>
+TextBox20 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.TextBox21">
+	<summary>
+TextBox21 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.TextBox22">
+	<summary>
+TextBox22 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.txtField5">
+	<summary>
+txtField5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.TextBox25">
+	<summary>
+TextBox25 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.TextBox24">
+	<summary>
+TextBox24 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.TextBox23">
+	<summary>
+TextBox23 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.Button12">
+	<summary>
+Button12 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.pnlDetail">
+	<summary>
+pnlDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.DropDownList2">
+	<summary>
+DropDownList2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.TextBox14">
+	<summary>
+TextBox14 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.DropDownList3">
+	<summary>
+DropDownList3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.DropDownList4">
+	<summary>
+DropDownList4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.TextBox16">
+	<summary>
+TextBox16 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.TextBox17">
+	<summary>
+TextBox17 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.TextBox3">
+	<summary>
+TextBox3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.TextBox4">
+	<summary>
+TextBox4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.TextBox5">
+	<summary>
+TextBox5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.Button1">
+	<summary>
+Button1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.Button2">
+	<summary>
+Button2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.btnSearch7">
+	<summary>
+btnSearch7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.rptResult">
+	<summary>
+rptResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.txtId0">
+	<summary>
+txtId0 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.txtId1">
+	<summary>
+txtId1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.txtId2">
+	<summary>
+txtId2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.TextBox2">
+	<summary>
+TextBox2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.pnlSearch">
+	<summary>
+pnlSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.TextBox6">
+	<summary>
+TextBox6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.TextBox7">
+	<summary>
+TextBox7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.Button4">
+	<summary>
+Button4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.TextBox11">
+	<summary>
+TextBox11 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.Button3">
+	<summary>
+Button3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.pnlResult">
+	<summary>
+pnlResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.Repeater1">
+	<summary>
+Repeater1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.RepeaterNavigateBar">
+	<summary>
+RepeaterNavigateBar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRETURN.MessageBox1">
+	<summary>
+MessageBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:AIMERP.UI.AIMTRNRETURN.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchSite.btnSearch">
+	<summary>
+btnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchSite.UpdatePanel1">
+	<summary>
+UpdatePanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchSite.rptResult">
+	<summary>
+rptResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchSite.lblKeyTarget">
+	<summary>
+lblKeyTarget control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchSite.lblValueTarget">
+	<summary>
+lblValueTarget control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchSite.lblFilter">
+	<summary>
+lblFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:AIMERP.UI.AIMMASCUSTOMER.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:AIMERP.UI.ToolBar.btnNew">
+	<summary>
+btnNew control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.ToolBar.btnSave">
+	<summary>
+btnSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.ToolBar.btnClear">
+	<summary>
+btnClear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.ToolBar.btnBack">
+	<summary>
+btnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.ToolBar.btnNext">
+	<summary>
+btnNext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.ToolBar.btnDelete">
+	<summary>
+btnDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.ToolBar.btnPrint">
+	<summary>
+btnPrint control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.ToolBar.btnAttcah">
+	<summary>
+btnAttcah control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.ToolBar.btnSearch">
+	<summary>
+btnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.ToolBar">
+	<summary>
+ToolBar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.liHead">
+	<summary>
+liHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.lbtHead">
+	<summary>
+lbtHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.liDetail">
+	<summary>
+liDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.lbtDetail">
+	<summary>
+lbtDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.liSearch">
+	<summary>
+liSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.lbtSearch">
+	<summary>
+lbtSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.pnlHead">
+	<summary>
+pnlHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtOrg_Id">
+	<summary>
+txtOrg_Id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtQuotation_Id">
+	<summary>
+txtQuotation_Id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtPromotion_Status">
+	<summary>
+txtPromotion_Status control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.hdfPromotion_Status">
+	<summary>
+hdfPromotion_Status control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtCustomer_Id">
+	<summary>
+txtCustomer_Id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.PopUpSearchCustomer1">
+	<summary>
+PopUpSearchCustomer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtCustomer_Name">
+	<summary>
+txtCustomer_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtCurrency_Name">
+	<summary>
+txtCurrency_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.PopUpSearchCurrency1">
+	<summary>
+PopUpSearchCurrency1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.hdfCurrency_Code">
+	<summary>
+hdfCurrency_Code control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtCustomer_Site_Name">
+	<summary>
+txtCustomer_Site_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.PopUpSearchSite1">
+	<summary>
+PopUpSearchSite1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.hdfCustomer_Site_Id">
+	<summary>
+hdfCustomer_Site_Id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtTerm">
+	<summary>
+txtTerm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.PopUpSearchReceiveTerm1">
+	<summary>
+PopUpSearchReceiveTerm1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.hdfTerm_Id">
+	<summary>
+hdfTerm_Id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtBill_To_Name">
+	<summary>
+txtBill_To_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.PopUpSearchSite2">
+	<summary>
+PopUpSearchSite2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.hdfBill_To_Id">
+	<summary>
+hdfBill_To_Id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtShip_To_Name">
+	<summary>
+txtShip_To_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.PopUpSearchSite3">
+	<summary>
+PopUpSearchSite3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.hdfShip_To_Id">
+	<summary>
+hdfShip_To_Id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtTax">
+	<summary>
+txtTax control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.PopUpSearchSalesTax1">
+	<summary>
+PopUpSearchSalesTax1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.hdfTax_Id">
+	<summary>
+hdfTax_Id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtStart_Date">
+	<summary>
+txtStart_Date control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtStart_Date_CalendarExtender">
+	<summary>
+txtStart_Date_CalendarExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtEnd_Date">
+	<summary>
+txtEnd_Date control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtEnd_Date_CalendarExtender">
+	<summary>
+txtEnd_Date_CalendarExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtDescription">
+	<summary>
+txtDescription control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtRemark">
+	<summary>
+txtRemark control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.lblStatus">
+	<summary>
+lblStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.btnRequest">
+	<summary>
+btnRequest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.btnApprove">
+	<summary>
+btnApprove control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.btnReject">
+	<summary>
+btnReject control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.btnCreateSaleOrder">
+	<summary>
+btnCreateSaleOrder control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.pnlDetail">
+	<summary>
+pnlDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.lblSeq">
+	<summary>
+lblSeq control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtItem_Id">
+	<summary>
+txtItem_Id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.PopUpSearchItem1">
+	<summary>
+PopUpSearchItem1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtItem_Name">
+	<summary>
+txtItem_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtUnit_Price">
+	<summary>
+txtUnit_Price control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtQty">
+	<summary>
+txtQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtUOM_Name">
+	<summary>
+txtUOM_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.PopUpSearchUOM1">
+	<summary>
+PopUpSearchUOM1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.hdfUOM_Code">
+	<summary>
+hdfUOM_Code control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtAmount">
+	<summary>
+txtAmount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.btnAdd">
+	<summary>
+btnAdd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.btnSave">
+	<summary>
+btnSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.rptDetail">
+	<summary>
+rptDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.UpdatePanel2">
+	<summary>
+UpdatePanel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtSubTotal">
+	<summary>
+txtSubTotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtDiscount">
+	<summary>
+txtDiscount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtTaxAmount">
+	<summary>
+txtTaxAmount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtGrandTotal">
+	<summary>
+txtGrandTotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.btnCalculatePromotion">
+	<summary>
+btnCalculatePromotion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.pnlSearch">
+	<summary>
+pnlSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtQuotation_IdS">
+	<summary>
+txtQuotation_IdS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtCustomer_IdS">
+	<summary>
+txtCustomer_IdS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.PopUpSearchCustomer2">
+	<summary>
+PopUpSearchCustomer2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.txtCustomer_NameS">
+	<summary>
+txtCustomer_NameS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.pnlResult">
+	<summary>
+pnlResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.rptSearch">
+	<summary>
+rptSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.RepeaterNavigateBar">
+	<summary>
+RepeaterNavigateBar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNSQUO.MessageBox">
+	<summary>
+MessageBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:AIMERP.UI.AIMTRNSQUO.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="P:AIMERP.UI.Home.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="P:AIMERP.UI.AIMMASSALESVAT.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNBILLING.ToolBar">
+	<summary>
+ToolBar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNBILLING.pnlHead">
+	<summary>
+pnlHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNBILLING.TextBox8">
+	<summary>
+TextBox8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNBILLING.txtCustomer_Id">
+	<summary>
+txtCustomer_Id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNBILLING.PopUpSearchCustomer1">
+	<summary>
+PopUpSearchCustomer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNBILLING.txtCustomer_Name">
+	<summary>
+txtCustomer_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNBILLING.txtFromDue_Date">
+	<summary>
+txtFromDue_Date control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNBILLING.txtFromDue_CalendarExtender">
+	<summary>
+txtFromDue_CalendarExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNBILLING.txtToDue_Date">
+	<summary>
+txtToDue_Date control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNBILLING.txtToDue_CalendarExtender">
+	<summary>
+txtToDue_CalendarExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNBILLING.Button12">
+	<summary>
+Button12 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNBILLING.Button13">
+	<summary>
+Button13 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNBILLING.Button14">
+	<summary>
+Button14 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNBILLING.Button15">
+	<summary>
+Button15 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNBILLING.pnlResult">
+	<summary>
+pnlResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNBILLING.rptDocResult">
+	<summary>
+rptDocResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNBILLING.MessageBox1">
+	<summary>
+MessageBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:AIMERP.UI.AIMTRNBILLING.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.ToolBar">
+	<summary>
+ToolBar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.pnlHead">
+	<summary>
+pnlHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.TextBox8">
+	<summary>
+TextBox8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.TextBox19">
+	<summary>
+TextBox19 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.Button18">
+	<summary>
+Button18 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.TextBox20">
+	<summary>
+TextBox20 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.txtFromDue_Date">
+	<summary>
+txtFromDue_Date control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.txtFromDue_CalendarExtender">
+	<summary>
+txtFromDue_CalendarExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.txtToDue_Date">
+	<summary>
+txtToDue_Date control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.txtToDue_CalendarExtender">
+	<summary>
+txtToDue_CalendarExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.Button12">
+	<summary>
+Button12 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.Button1">
+	<summary>
+Button1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.Button2">
+	<summary>
+Button2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.Button5">
+	<summary>
+Button5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.Button15">
+	<summary>
+Button15 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.pnlResult">
+	<summary>
+pnlResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.rptDocResult">
+	<summary>
+rptDocResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.pnlDetail">
+	<summary>
+pnlDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.txtChq_Date">
+	<summary>
+txtChq_Date control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.txtChq_CalendarExtender">
+	<summary>
+txtChq_CalendarExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.TextBox10">
+	<summary>
+TextBox10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.TextBox11">
+	<summary>
+TextBox11 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.Button3">
+	<summary>
+Button3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.TextBox12">
+	<summary>
+TextBox12 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.Button4">
+	<summary>
+Button4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.Panel2">
+	<summary>
+Panel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.rptChqResult">
+	<summary>
+rptChqResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPAYMENT.MessageBox1">
+	<summary>
+MessageBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:AIMERP.UI.AIMTRNPAYMENT.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearch.btnSearch">
+	<summary>
+btnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearch.UpdatePanel1">
+	<summary>
+UpdatePanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearch.lblKeyHeader">
+	<summary>
+lblKeyHeader control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearch.lblValueHeader">
+	<summary>
+lblValueHeader control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearch.rptResult">
+	<summary>
+rptResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearch.lblKeyField">
+	<summary>
+lblKeyField control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearch.lblValueField">
+	<summary>
+lblValueField control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearch.lblKeyTarget">
+	<summary>
+lblKeyTarget control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearch.lblValueTarget">
+	<summary>
+lblValueTarget control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchItem.btnSearch">
+	<summary>
+btnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchItem.UpdatePanel1">
+	<summary>
+UpdatePanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchItem.rptResult">
+	<summary>
+rptResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchItem.lblKeyTarget">
+	<summary>
+lblKeyTarget control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchItem.lblValueTarget">
+	<summary>
+lblValueTarget control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchItem.lblExtra1Target">
+	<summary>
+lblExtra1Target control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchItem.lblFilter">
+	<summary>
+lblFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:AIMERP.UI.AIMMASPRICELIST.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:AIMERP.UI.MessageBox.updMessage">
+	<summary>
+updMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.MessageBox.pnlMessage">
+	<summary>
+pnlMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.MessageBox.Panel1">
+	<summary>
+Panel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.MessageBox.imgMessage">
+	<summary>
+imgMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.MessageBox.lblMessage">
+	<summary>
+lblMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.MessageBox.btnCloseMessage">
+	<summary>
+btnCloseMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.MessageBox.btnDecline">
+	<summary>
+btnDecline control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.MessageBox.btnConfirm">
+	<summary>
+btnConfirm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.MessageBox.lbMessage">
+	<summary>
+lbMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.MessageBox.mpeMessage">
+	<summary>
+mpeMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:AIMERP.UI.AIMMASSUPPLIER.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="P:AIMERP.UI.AIMMASORG.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="P:AIMERP.UI.AIMMASBANK.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="P:AIMERP.UI.AIMMASORGITEM.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.ToolBar">
+	<summary>
+ToolBar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.liHead">
+	<summary>
+liHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.lbtHead">
+	<summary>
+lbtHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.liDetail">
+	<summary>
+liDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.lbtDetail">
+	<summary>
+lbtDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.liSearch">
+	<summary>
+liSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.lbtSearch">
+	<summary>
+lbtSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.pnlHead">
+	<summary>
+pnlHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.TextBox10">
+	<summary>
+TextBox10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.txtId">
+	<summary>
+txtId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.txtPromotion_Status">
+	<summary>
+txtPromotion_Status control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.hdfPromotion_Status">
+	<summary>
+hdfPromotion_Status control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.txtCustomer_Id">
+	<summary>
+txtCustomer_Id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.btnSearch0">
+	<summary>
+btnSearch0 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.txtCustomer_Name">
+	<summary>
+txtCustomer_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.TextBox1">
+	<summary>
+TextBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.btnSearch3">
+	<summary>
+btnSearch3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.txtCustomer_Site_Name">
+	<summary>
+txtCustomer_Site_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.PopUpSearchSite1">
+	<summary>
+PopUpSearchSite1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.hdfCustomer_Site_Id">
+	<summary>
+hdfCustomer_Site_Id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.txtCurrency_Name">
+	<summary>
+txtCurrency_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.PopUpSearchCurrency1">
+	<summary>
+PopUpSearchCurrency1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.hdfCurrency_Code">
+	<summary>
+hdfCurrency_Code control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.txtField5">
+	<summary>
+txtField5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.TextBox8">
+	<summary>
+TextBox8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.txtField9">
+	<summary>
+txtField9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.txtCreate_Date">
+	<summary>
+txtCreate_Date control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.txtCreate_Date_CalendarExtender">
+	<summary>
+txtCreate_Date_CalendarExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.Button12">
+	<summary>
+Button12 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.Button13">
+	<summary>
+Button13 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.Button14">
+	<summary>
+Button14 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.pnlDetail">
+	<summary>
+pnlDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.TextBox5">
+	<summary>
+TextBox5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.Button3">
+	<summary>
+Button3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.txtItem_Id">
+	<summary>
+txtItem_Id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.Button5">
+	<summary>
+Button5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.txtItem_Name">
+	<summary>
+txtItem_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.txtUOM_Name">
+	<summary>
+txtUOM_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.PopUpSearchUOM1">
+	<summary>
+PopUpSearchUOM1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.hdfUOM_Code">
+	<summary>
+hdfUOM_Code control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.txtItem_Name0">
+	<summary>
+txtItem_Name0 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.txtItem_Name1">
+	<summary>
+txtItem_Name1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.txtItem_Name2">
+	<summary>
+txtItem_Name2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.txtRequest_Date">
+	<summary>
+txtRequest_Date control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.txtRequest_Date_CalendarExtender">
+	<summary>
+txtRequest_Date_CalendarExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.CheckBox1">
+	<summary>
+CheckBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.CheckBox2">
+	<summary>
+CheckBox2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.txtItem_Name3">
+	<summary>
+txtItem_Name3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.Button1">
+	<summary>
+Button1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.Button2">
+	<summary>
+Button2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.btnSearch7">
+	<summary>
+btnSearch7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.rptDetail">
+	<summary>
+rptDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.pnSubDetail">
+	<summary>
+pnSubDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.pnlSearch">
+	<summary>
+pnlSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.TextBox2">
+	<summary>
+TextBox2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.TextBox3">
+	<summary>
+TextBox3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.Button6">
+	<summary>
+Button6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.TextBox16">
+	<summary>
+TextBox16 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.Button15">
+	<summary>
+Button15 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.TextBox17">
+	<summary>
+TextBox17 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.pnlResult">
+	<summary>
+pnlResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.rptResult">
+	<summary>
+rptResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.RepeaterNavigateBar">
+	<summary>
+RepeaterNavigateBar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPR.MessageBox1">
+	<summary>
+MessageBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:AIMERP.UI.AIMTRNPR.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.ToolBar">
+	<summary>
+ToolBar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.liHead">
+	<summary>
+liHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.lbtHead">
+	<summary>
+lbtHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.liDetail">
+	<summary>
+liDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.lbtDetail">
+	<summary>
+lbtDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.liSearch">
+	<summary>
+liSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.lbtSearch">
+	<summary>
+lbtSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.pnlHead">
+	<summary>
+pnlHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.TextBox10">
+	<summary>
+TextBox10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtId">
+	<summary>
+txtId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtPromotion_Status">
+	<summary>
+txtPromotion_Status control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.hdfPromotion_Status">
+	<summary>
+hdfPromotion_Status control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtCustomer_Id">
+	<summary>
+txtCustomer_Id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.btnSearch0">
+	<summary>
+btnSearch0 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtCustomer_Name">
+	<summary>
+txtCustomer_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.TextBox1">
+	<summary>
+TextBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.btnSearch3">
+	<summary>
+btnSearch3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtCustomer_Site_Name">
+	<summary>
+txtCustomer_Site_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.PopUpSearchSite1">
+	<summary>
+PopUpSearchSite1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.hdfCustomer_Site_Id">
+	<summary>
+hdfCustomer_Site_Id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.TextBox19">
+	<summary>
+TextBox19 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.Button8">
+	<summary>
+Button8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtField5">
+	<summary>
+txtField5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtCurrency_Name">
+	<summary>
+txtCurrency_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.PopUpSearchCurrency1">
+	<summary>
+PopUpSearchCurrency1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.hdfCurrency_Code">
+	<summary>
+hdfCurrency_Code control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtTerm">
+	<summary>
+txtTerm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.PopUpSearchReceiveTerm1">
+	<summary>
+PopUpSearchReceiveTerm1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.hdfTerm_Id">
+	<summary>
+hdfTerm_Id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtSart_Date1">
+	<summary>
+txtSart_Date1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtSart_Date1_CalendarExtender">
+	<summary>
+txtSart_Date1_CalendarExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtEnd_Date1">
+	<summary>
+txtEnd_Date1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtEnd_Date1_CalendarExtender">
+	<summary>
+txtEnd_Date1_CalendarExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.Button12">
+	<summary>
+Button12 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.Button13">
+	<summary>
+Button13 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.Button14">
+	<summary>
+Button14 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.Button15">
+	<summary>
+Button15 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.pnlDetail">
+	<summary>
+pnlDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.TextBox7">
+	<summary>
+TextBox7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.Button7">
+	<summary>
+Button7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtItem_Id">
+	<summary>
+txtItem_Id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.Button3">
+	<summary>
+Button3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtItem_Name">
+	<summary>
+txtItem_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtUOM_Name">
+	<summary>
+txtUOM_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.PopUpSearchUOM1">
+	<summary>
+PopUpSearchUOM1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.hdfUOM_Code">
+	<summary>
+hdfUOM_Code control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtStart_Date2">
+	<summary>
+txtStart_Date2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtStart_Date2_CalendarExtender">
+	<summary>
+txtStart_Date2_CalendarExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtEnd_Date2">
+	<summary>
+txtEnd_Date2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtEnd_Date2_CalendarExtender">
+	<summary>
+txtEnd_Date2_CalendarExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.Button1">
+	<summary>
+Button1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.Button2">
+	<summary>
+Button2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.btnSearch7">
+	<summary>
+btnSearch7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.rptDetail">
+	<summary>
+rptDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.pnSubDetail">
+	<summary>
+pnSubDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.TextBox11">
+	<summary>
+TextBox11 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.PopUpSearchUOM3">
+	<summary>
+PopUpSearchUOM3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.HiddenField2">
+	<summary>
+HiddenField2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.TextBox22">
+	<summary>
+TextBox22 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.TextBox5">
+	<summary>
+TextBox5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.TextBox23">
+	<summary>
+TextBox23 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtStart3_Date">
+	<summary>
+txtStart3_Date control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtStart_Date3_CalendarExtender">
+	<summary>
+txtStart_Date3_CalendarExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtEnd_Date3">
+	<summary>
+txtEnd_Date3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtEnd_Date3_CalendarExtender">
+	<summary>
+txtEnd_Date3_CalendarExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.Button4">
+	<summary>
+Button4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.Button5">
+	<summary>
+Button5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.Button6">
+	<summary>
+Button6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.rptSubDetail">
+	<summary>
+rptSubDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.pnlSearch">
+	<summary>
+pnlSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.TextBox2">
+	<summary>
+TextBox2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.TextBox3">
+	<summary>
+TextBox3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.Button9">
+	<summary>
+Button9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.TextBox6">
+	<summary>
+TextBox6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.Button10">
+	<summary>
+Button10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.TextBox9">
+	<summary>
+TextBox9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtStart_Date4">
+	<summary>
+txtStart_Date4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtStart_Date4_CalendarExtender">
+	<summary>
+txtStart_Date4_CalendarExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtEnd_Date4">
+	<summary>
+txtEnd_Date4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtEnd_Date4_CalendarExtender">
+	<summary>
+txtEnd_Date4_CalendarExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.pnlResult">
+	<summary>
+pnlResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.rptResult">
+	<summary>
+rptResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.RepeaterNavigateBar">
+	<summary>
+RepeaterNavigateBar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.MessageBox1">
+	<summary>
+MessageBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:AIMERP.UI.AIMTRNPQUO.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="P:AIMERP.UI.AIMTRNDELIVERY.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.ToolBar">
+	<summary>
+ToolBar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.liHead">
+	<summary>
+liHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.lbtHead">
+	<summary>
+lbtHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.liDetail">
+	<summary>
+liDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.lbtDetail">
+	<summary>
+lbtDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.liSearch">
+	<summary>
+liSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.lbtSearch">
+	<summary>
+lbtSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.pnlHead">
+	<summary>
+pnlHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.TextBox8">
+	<summary>
+TextBox8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.txtFromDue_Date0">
+	<summary>
+txtFromDue_Date0 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.txtFromDue_Date0_CalendarExtender">
+	<summary>
+txtFromDue_Date0_CalendarExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.TextBox19">
+	<summary>
+TextBox19 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.Button1">
+	<summary>
+Button1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.TextBox20">
+	<summary>
+TextBox20 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.txtPromotion_Status">
+	<summary>
+txtPromotion_Status control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.hdfPromotion_Status">
+	<summary>
+hdfPromotion_Status control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.txtCustomer_Site_Name">
+	<summary>
+txtCustomer_Site_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.PopUpSearchSite1">
+	<summary>
+PopUpSearchSite1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.hdfCustomer_Site_Id">
+	<summary>
+hdfCustomer_Site_Id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.txtCurrency_Name">
+	<summary>
+txtCurrency_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.PopUpSearchCurrency1">
+	<summary>
+PopUpSearchCurrency1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.hdfCurrency_Code">
+	<summary>
+hdfCurrency_Code control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.TextBox30">
+	<summary>
+TextBox30 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.TextBox1">
+	<summary>
+TextBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.Button2">
+	<summary>
+Button2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.TextBox31">
+	<summary>
+TextBox31 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.TextBox32">
+	<summary>
+TextBox32 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.txtCheque_Date">
+	<summary>
+txtCheque_Date control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.txtCheque_Date_CalendarExtender">
+	<summary>
+txtCheque_Date_CalendarExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.TextBox33">
+	<summary>
+TextBox33 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.Button12">
+	<summary>
+Button12 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.Button15">
+	<summary>
+Button15 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.pnlDetail">
+	<summary>
+pnlDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.TextBox5">
+	<summary>
+TextBox5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.Button7">
+	<summary>
+Button7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.txtBilling_Date">
+	<summary>
+txtBilling_Date control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.txtBilling_Date_CalendarExtender1">
+	<summary>
+txtBilling_Date_CalendarExtender1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.txtItem_Name1">
+	<summary>
+txtItem_Name1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.TextBox2">
+	<summary>
+TextBox2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.Button3">
+	<summary>
+Button3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.Button4">
+	<summary>
+Button4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.btnSearch7">
+	<summary>
+btnSearch7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.rptDetail">
+	<summary>
+rptDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.pnlSubDetail">
+	<summary>
+pnlSubDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.Repeater1">
+	<summary>
+Repeater1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.pnlSearch">
+	<summary>
+pnlSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.TextBox22">
+	<summary>
+TextBox22 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.TextBox3">
+	<summary>
+TextBox3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.Button5">
+	<summary>
+Button5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.TextBox23">
+	<summary>
+TextBox23 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.Button18">
+	<summary>
+Button18 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.TextBox24">
+	<summary>
+TextBox24 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.pnlResult">
+	<summary>
+pnlResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.rptResult">
+	<summary>
+rptResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.RepeaterNavigateBar">
+	<summary>
+RepeaterNavigateBar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.AIMTRNRECEIPT.MessageBox1">
+	<summary>
+MessageBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:AIMERP.UI.AIMTRNRECEIPT.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="P:AIMERP.UI.AIMMASUOM.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="P:AIMERP.UI.AIMMASPRO.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:AIMERP.UI.Login.PageTitle">
+	<summary>
+PageTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Login.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Login.ToolkitScriptManager1">
+	<summary>
+ToolkitScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Login.UpdatePanel1">
+	<summary>
+UpdatePanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Login.lblVersion">
+	<summary>
+lblVersion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Login.txtUsername">
+	<summary>
+txtUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Login.txtPassword">
+	<summary>
+txtPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Login.btnLogin">
+	<summary>
+btnLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Login.btnBypass">
+	<summary>
+btnBypass control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Login.MessageBox1">
+	<summary>
+MessageBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.Login.lblHostName">
+	<summary>
+lblHostName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchField.btnSearch">
+	<summary>
+btnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchField.UpdatePanel1">
+	<summary>
+UpdatePanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchField.rptResult">
+	<summary>
+rptResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchField.lblKeyTarget">
+	<summary>
+lblKeyTarget control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchField.lblValueTarget">
+	<summary>
+lblValueTarget control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AIMERP.UI.PopUpSearchField.lblFilter">
+	<summary>
+lblFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

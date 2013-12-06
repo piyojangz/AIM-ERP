@@ -1,0 +1,77 @@
+D:\Work\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Property.dll
+D:\Work\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Property.pdb
+D:\Work\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Property.xml
+D:\Work\AIMERP\AIMERP.Property\obj\Debug\ResolveAssemblyReference.cache
+D:\Work\AIMERP\AIMERP.Property\obj\Debug\AIMERP.Property.Resources.resources
+D:\Work\AIMERP\AIMERP.Property\obj\Debug\GenerateResource.read.1.tlog
+D:\Work\AIMERP\AIMERP.Property\obj\Debug\GenerateResource.write.1.tlog
+D:\Work\AIMERP\AIMERP.Property\obj\Debug\AIMERP.Property.dll
+D:\Work\AIMERP\AIMERP.Property\obj\Debug\AIMERP.Property.xml
+D:\Work\AIMERP\AIMERP.Property\obj\Debug\AIMERP.Property.pdb
+D:\Work\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Utility.dll
+D:\Work\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Utility.pdb
+D:\Work\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Utility.xml
+D:\Project\AIM\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Property.dll
+D:\Project\AIM\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Property.pdb
+D:\Project\AIM\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Property.xml
+D:\Project\AIM\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Utility.dll
+D:\Project\AIM\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Utility.pdb
+D:\Project\AIM\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Utility.xml
+D:\Project\AIM\AIMERP\AIMERP.Property\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\AIM\AIMERP\AIMERP.Property\obj\Debug\AIMERP.Property.Resources.resources
+D:\Project\AIM\AIMERP\AIMERP.Property\obj\Debug\GenerateResource.read.1.tlog
+D:\Project\AIM\AIMERP\AIMERP.Property\obj\Debug\GenerateResource.write.1.tlog
+D:\Project\AIM\AIMERP\AIMERP.Property\obj\Debug\AIMERP.Property.dll
+D:\Project\AIM\AIMERP\AIMERP.Property\obj\Debug\AIMERP.Property.xml
+D:\Project\AIM\AIMERP\AIMERP.Property\obj\Debug\AIMERP.Property.pdb
+F:\Work\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Property.dll
+F:\Work\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Property.pdb
+F:\Work\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Property.xml
+F:\Work\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Utility.dll
+F:\Work\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Utility.pdb
+F:\Work\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Utility.xml
+F:\Work\AIMERP\AIMERP.Property\obj\Debug\ResolveAssemblyReference.cache
+F:\Work\AIMERP\AIMERP.Property\obj\Debug\AIMERP.Property.Resources.resources
+F:\Work\AIMERP\AIMERP.Property\obj\Debug\GenerateResource.read.1.tlog
+F:\Work\AIMERP\AIMERP.Property\obj\Debug\GenerateResource.write.1.tlog
+F:\Work\AIMERP\AIMERP.Property\obj\Debug\AIMERP.Property.dll
+F:\Work\AIMERP\AIMERP.Property\obj\Debug\AIMERP.Property.xml
+F:\Work\AIMERP\AIMERP.Property\obj\Debug\AIMERP.Property.pdb
+H:\Work\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Property.dll
+H:\Work\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Property.pdb
+H:\Work\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Property.xml
+H:\Work\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Utility.dll
+H:\Work\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Utility.pdb
+H:\Work\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Utility.xml
+H:\Work\AIMERP\AIMERP.Property\obj\Debug\ResolveAssemblyReference.cache
+H:\Work\AIMERP\AIMERP.Property\obj\Debug\AIMERP.Property.Resources.resources
+H:\Work\AIMERP\AIMERP.Property\obj\Debug\GenerateResource.read.1.tlog
+H:\Work\AIMERP\AIMERP.Property\obj\Debug\GenerateResource.write.1.tlog
+H:\Work\AIMERP\AIMERP.Property\obj\Debug\AIMERP.Property.dll
+H:\Work\AIMERP\AIMERP.Property\obj\Debug\AIMERP.Property.xml
+H:\Work\AIMERP\AIMERP.Property\obj\Debug\AIMERP.Property.pdb
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Property.dll
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Property.pdb
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Property.xml
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Utility.dll
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Utility.pdb
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.Property\bin\Debug\AIMERP.Utility.xml
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.Property\obj\Debug\ResolveAssemblyReference.cache
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.Property\obj\Debug\AIMERP.Property.Resources.resources
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.Property\obj\Debug\GenerateResource.read.1.tlog
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.Property\obj\Debug\GenerateResource.write.1.tlog
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.Property\obj\Debug\AIMERP.Property.dll
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.Property\obj\Debug\AIMERP.Property.xml
+D:\iPhoT\Soft System Solutions\AIM\AIMERP\AIMERP.Property\obj\Debug\AIMERP.Property.pdb
+E:\My Project\Freelance\AIMERP\Code\AIMERP.Property\bin\Debug\AIMERP.Property.dll
+E:\My Project\Freelance\AIMERP\Code\AIMERP.Property\bin\Debug\AIMERP.Property.pdb
+E:\My Project\Freelance\AIMERP\Code\AIMERP.Property\bin\Debug\AIMERP.Property.xml
+E:\My Project\Freelance\AIMERP\Code\AIMERP.Property\bin\Debug\AIMERP.Utility.dll
+E:\My Project\Freelance\AIMERP\Code\AIMERP.Property\bin\Debug\AIMERP.Utility.pdb
+E:\My Project\Freelance\AIMERP\Code\AIMERP.Property\bin\Debug\AIMERP.Utility.xml
+E:\My Project\Freelance\AIMERP\Code\AIMERP.Property\obj\Debug\AIMERP.Property.vbprojResolveAssemblyReference.cache
+E:\My Project\Freelance\AIMERP\Code\AIMERP.Property\obj\Debug\AIMERP.Property.Resources.resources
+E:\My Project\Freelance\AIMERP\Code\AIMERP.Property\obj\Debug\AIMERP.Property.vbproj.GenerateResource.Cache
+E:\My Project\Freelance\AIMERP\Code\AIMERP.Property\obj\Debug\AIMERP.Property.dll
+E:\My Project\Freelance\AIMERP\Code\AIMERP.Property\obj\Debug\AIMERP.Property.xml
+E:\My Project\Freelance\AIMERP\Code\AIMERP.Property\obj\Debug\AIMERP.Property.pdb
