@@ -3483,9 +3483,9 @@ txtItem_Id control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:AIMERP.UI.AIMTRNPQUO.Button3">
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.PopUpSearchItem1">
 	<summary>
-Button3 control.
+PopUpSearchItem1 control.
 </summary>
 	<remarks>
 Auto-generated field.

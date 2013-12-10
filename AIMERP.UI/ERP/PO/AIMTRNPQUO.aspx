@@ -321,9 +321,8 @@
                                                     Width="150px" />
                                             </td>
                                             <td class="1px">
-                                                <button id="Button3" runat="server" class="btn btn-default" type="button">
-                                                    <span class="glyphicon glyphicon-search"></span>
-                                                </button>
+                                                <uc9:PopUpSearchItem ID="PopUpSearchItem1" runat="server" ValueTarget="txtItem_Name"
+                                                    Enabled="True" KeyTarget="txtItem_Id" Extra1Target="" />
                                             </td>
                                         </tr>
                                     </table>
