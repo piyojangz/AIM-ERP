@@ -6,7 +6,7 @@
 
                 Public Property Org_ID As Integer
                 Public Property Line_ID As Integer
-                Public Property SQUO_ID As Integer
+                Public Property Quotation_ID As Integer
                 Public Property QTY_From As Integer
                 Public Property QTY_To As Integer
                 Public Property Price As Decimal

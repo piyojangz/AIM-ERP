@@ -16,6 +16,7 @@
                 Public Property Attached_File As String
                 Public Property Remark As String
                 Public Property Currency_Code As String
+                Public Property Currency_Name As String
                 Public Property Start_Date As String
                 Public Property End_Date As String
                 Public Property Payment_Term_Id As Integer

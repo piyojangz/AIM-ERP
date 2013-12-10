@@ -1,7 +1,6 @@
 ﻿Imports System.Configuration.ConfigurationManager
 Imports AIMERP.Property.PO.ServiceContract.DataContract
 Imports AIMERP.Business.PO.ServiceContract
-'Imports AIMERP.Business.Transection.ServiceContract
 
 Public Class AIMTRNPQUO
     Inherits BaseWebForm
@@ -122,7 +121,7 @@ Public Class AIMTRNPQUO
             Me.ClearHeadControl()
             Me.ClearDetailControl()
             Me.EnableControl(True)
-            Me.txtPromotion_Status.Text = "สร้างใหม่"
+            Me.txtQuotation_Status.Text = "สร้างใหม่"
             Me.VW_Status = "N"
             Me.ShowPanel(True, False, False)
             Me.EnableToolBar(Me.ToolBar, False, True, True, False, False, False, False, False, False)
@@ -213,42 +212,43 @@ Public Class AIMTRNPQUO
                     Me.TrnPOQUOHeader = Me.RepeaterNavigateBar.DataSource.Items(Row)
 
                     With Me
-                        '.txtOrg_Id.Text = Me.TrnSQUOHeader.Org_ID
+                        .txtOrg_Id.Text = Me.TrnPOQUOHeader.Org_ID
                         .txtQuotation_No.Text = Me.TrnPOQUOHeader.Quotation_No
-                        '    .hdfPromotion_Status.Value = Me.TrnSQUOHeader.Promotion_Status
+                        .hdfQuotation_Status.Value = Me.TrnPOQUOHeader.Status
 
-                        Me.PromotionStatus(Me.TrnPOQUOHeader.Status)
+                        Me.QuotationStatus(Me.TrnPOQUOHeader.Status)
 
-                        '    .txtCustomer_Id.Text = Me.TrnSQUOHeader.Customer_ID
-                        '    .txtCustomer_Name.Text = Me.TrnSQUOHeader.Customer_Name
-                        '    .hdfCurrency_Code.Value = Me.TrnSQUOHeader.Currency_Code
-                        '    .txtCurrency_Name.Text = Me.TrnSQUOHeader.Currency_Name
-                        '    .hdfCustomer_Site_Id.Value = Me.TrnSQUOHeader.Customer_Site_ID
-                        '    .txtCustomer_Site_Name.Text = Me.TrnSQUOHeader.Customer_Name
-                        '    .hdfTerm_Id.Value = Me.TrnSQUOHeader.Term_ID
-                        '    .txtTerm.Text = Me.TrnSQUOHeader.Term_Name
-                        '    .hdfBill_To_Id.Value = Me.TrnSQUOHeader.Bill_To_ID
-                        '    .txtBill_To_Name.Text = Me.TrnSQUOHeader.Bill_To_Name
-                        '    .hdfShip_To_Id.Value = Me.TrnSQUOHeader.Ship_To_ID
-                        '    .txtShip_To_Name.Text = Me.TrnSQUOHeader.Ship_To_Name
-                        '    .txtStart_Date.Text = Me.GetDateString(Me.TrnSQUOHeader.Start_Date)
-                        '    .txtEnd_Date.Text = Me.GetDateString(Me.TrnSQUOHeader.End_Date)
+                        .txtSupplier_Id.Text = Me.TrnPOQUOHeader.Supplier_ID
+                        .txtSupplier_Name.Text = Me.TrnPOQUOHeader.Supplier_Name
+                        .hdfCurrency_Code.Value = Me.TrnPOQUOHeader.Currency_Code
+                        .txtCurrency_Name.Text = Me.TrnPOQUOHeader.Currency_Name
+                        .hdfSupplier_Site_Id.Value = Me.TrnPOQUOHeader.Supplier_Site_ID
+                        .txtSupplier_Site_Name.Text = Me.TrnPOQUOHeader.Supplier_Site_Name
+                        .hdfTerm_Id.Value = Me.TrnPOQUOHeader.Payment_Term_Id
+                        .txtTerm.Text = Me.TrnPOQUOHeader.Payment_Term_Name
+                        '    .hdfBill_To_Id.Value = Me.TrnPOQUOHeader.Bill_To_ID
+                        '    .txtBill_To_Name.Text = Me.TrnPOQUOHeader.Bill_To_Name
+                        '    .hdfShip_To_Id.Value = Me.TrnPOQUOHeader.Ship_To_ID
+                        '    .txtShip_To_Name.Text = Me.TrnPOQUOHeader.Ship_To_Name
+                        .txtStart_Date.Text = Me.GetDateString(Me.TrnPOQUOHeader.Start_Date)
+                        .txtEnd_Date.Text = Me.GetDateString(Me.TrnPOQUOHeader.End_Date)
                         '    .txtTax.Text = ""
-                        '    .txtDescription.Text = Me.TrnSQUOHeader.Description
-                        '    .txtRemark.Text = Me.TrnSQUOHeader.Remark
+                        '    .txtDescription.Text = Me.TrnPOQUOHeader.Description
+                        .txtRemark.Text = Me.TrnPOQUOHeader.Remark
 
-                        '    .lblStatus.Text = "Edit"
+                        '.lblStatus.Text = "Edit"
+                        VW_Status = "Edit"
                     End With
 
-                    'Me.TrnSQUODetail = New TrnSQUODetail
-                    'Me.TrnSQUOHeaderBusiness = New TrnSQUOHeaderBusiness
+                    Me.TrnPOQUODetail = New TrnPOQUODetail
+                    Me.TrnPOQUOHeaderBusiness = New TrnPOQUOHeaderBusiness
 
-                    'With Me.TrnSQUODetail
-                    '    .Org_ID = Me.TrnSQUOHeader.Org_ID
-                    '    .Quotation_ID = Me.TrnSQUOHeader.Quotation_ID
-                    'End With
+                    With Me.TrnPOQUODetail
+                        .Org_ID = Me.TrnPOQUOHeader.Org_ID
+                        .Quotation_ID = Me.TrnPOQUOHeader.Quotation_ID
+                    End With
 
-                    'Me.TrnSQUODetailCollection = Me.TrnSQUODetailBusiness.SelectAllData(Me.TrnSQUODetail)
+                    Me.TrnPOQUODetailCollection = Me.TrnPOQUODetailBusiness.SelectAllData(Me.TrnPOQUODetail)
                     Me.BindDetail()
 
                     Me.EnableControl(True)
@@ -271,12 +271,12 @@ Public Class AIMTRNPQUO
     Private Sub AddControlAttribute()
         Try
             With Me
-                '.txtOrg_Id.Attributes.Add("readonly", "readonly")
+                .txtQuotation_No.Attributes.Add("readonly", "readonly")
                 '.txtQuotation_Id.Attributes.Add("readonly", "readonly")
-                .txtPromotion_Status.Attributes.Add("readonly", "readonly")
-                .txtCustomer_Name.Attributes.Add("readonly", "readonly")
+                .txtQuotation_Status.Attributes.Add("readonly", "readonly")
+                .txtSupplier_Name.Attributes.Add("readonly", "readonly")
                 .txtCurrency_Name.Attributes.Add("readonly", "readonly")
-                .txtCustomer_Site_Name.Attributes.Add("readonly", "readonly")
+                .txtSupplier_Site_Name.Attributes.Add("readonly", "readonly")
                 .txtTerm.Attributes.Add("readonly", "readonly")
                 '.txtBill_To_Name.Attributes.Add("readonly", "readonly")
                 '.txtShip_To_Name.Attributes.Add("readonly", "readonly")
@@ -303,13 +303,13 @@ Public Class AIMTRNPQUO
             With Me
                 '.txtOrg_Id.Text = ""
                 '.txtQuotation_Id.Text = ""
-                .txtPromotion_Status.Text = ""
-                .txtCustomer_Id.Text = ""
-                .txtCustomer_Name.Text = ""
+                .txtQuotation_Status.Text = ""
+                .txtSupplier_Id.Text = ""
+                .txtSupplier_Name.Text = ""
                 .txtCurrency_Name.Text = ""
                 .hdfCurrency_Code.Value = ""
-                .txtCustomer_Site_Name.Text = ""
-                .hdfCustomer_Site_Id.Value = ""
+                .txtSupplier_Site_Name.Text = ""
+                .hdfSupplier_Site_Id.Value = ""
                 .txtTerm.Text = ""
                 .hdfTerm_Id.Value = ""
                 '.txtBill_To_Name.Text = ""
@@ -355,8 +355,8 @@ Public Class AIMTRNPQUO
         Try
             With Me
                 '.txtQuotation_IdS.Text = ""
-                '.txtCustomer_IdS.Text = ""
-                '.txtCustomer_NameS.Text = ""
+                '.txtSupplier_IdS.Text = ""
+                '.txtSupplier_NameS.Text = ""
             End With
         Catch ex As Exception
 
@@ -372,14 +372,14 @@ Public Class AIMTRNPQUO
 
                 '.txtOrg_Id.Enabled = value
                 '.txtQuotation_Id.Enabled = value
-                '.txtPromotion_Status.Enabled = value
+                '.txtQuotation_Status.Enabled = value
 
-                .txtCustomer_Id.Enabled = value
+                .txtSupplier_Id.Enabled = value
                 '.PopUpSearchCustomer1.Enabled = value
-                .txtCustomer_Name.Enabled = value
+                .txtSupplier_Name.Enabled = value
                 .txtCurrency_Name.Enabled = value
                 .PopUpSearchCurrency1.Enabled = value
-                .txtCustomer_Site_Name.Enabled = value
+                .txtSupplier_Site_Name.Enabled = value
                 .PopUpSearchSite1.Enabled = value
                 .txtTerm.Enabled = value
                 .PopUpSearchReceiveTerm1.Enabled = value
@@ -427,32 +427,32 @@ Public Class AIMTRNPQUO
         End Try
     End Sub
 
-    Private Sub PromotionStatus(Status As String)
+    Private Sub QuotationStatus(Status As String)
         With Me
             Select Case Status
                 Case "N"
-                    .txtPromotion_Status.Text = "สร้างใหม่"
+                    .txtQuotation_Status.Text = "สร้างใหม่"
                     .btnRequest.Visible = True
                     .btnApprove.Visible = False
                     .btnReject.Visible = False
                     .btnCreateSaleOrder.Visible = False
                     Me.EnableToolBar(Me.ToolBar, False, True, True, False, False, False, False, False, False)
                 Case "W"
-                    .txtPromotion_Status.Text = "รออนุมัติ"
+                    .txtQuotation_Status.Text = "รออนุมัติ"
                     .btnRequest.Visible = False
                     .btnApprove.Visible = True
                     .btnReject.Visible = True
                     .btnCreateSaleOrder.Visible = False
                     Me.EnableToolBar(Me.ToolBar, False, False, True, False, False, False, False, False, False)
                 Case "R"
-                    .txtPromotion_Status.Text = "ไม่อนุมัติ"
+                    .txtQuotation_Status.Text = "ไม่อนุมัติ"
                     .btnRequest.Visible = False
                     .btnApprove.Visible = False
                     .btnReject.Visible = False
                     .btnCreateSaleOrder.Visible = False
                     Me.EnableToolBar(Me.ToolBar, False, False, True, False, False, False, False, False, False)
                 Case "A"
-                    .txtPromotion_Status.Text = "อนุมัติ"
+                    .txtQuotation_Status.Text = "อนุมัติ"
                     .btnRequest.Visible = False
                     .btnApprove.Visible = False
                     .btnReject.Visible = False
@@ -499,5 +499,4 @@ Public Class AIMTRNPQUO
         'Me.txtGrandTotal.Text = GrandTotal
     End Sub
 #End Region
-
 End Class

@@ -86,13 +86,13 @@ Partial Public Class AIMTRNPQUO
     Protected WithEvents pnlHead As Global.System.Web.UI.WebControls.Panel
 
     '''<summary>
-    '''TextBox10 control.
+    '''txtOrg_Id control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox10 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtOrg_Id As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''txtQuotation_No control.
@@ -104,49 +104,49 @@ Partial Public Class AIMTRNPQUO
     Protected WithEvents txtQuotation_No As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''txtPromotion_Status control.
+    '''txtQuotation_Status control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txtPromotion_Status As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtQuotation_Status As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''hdfPromotion_Status control.
+    '''hdfQuotation_Status control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents hdfPromotion_Status As Global.System.Web.UI.WebControls.HiddenField
+    Protected WithEvents hdfQuotation_Status As Global.System.Web.UI.WebControls.HiddenField
 
     '''<summary>
-    '''txtCustomer_Id control.
+    '''txtSupplier_Id control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txtCustomer_Id As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtSupplier_Id As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''btnSearch0 control.
+    '''PopUpSearchSupplier1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents btnSearch0 As Global.System.Web.UI.HtmlControls.HtmlButton
+    Protected WithEvents PopUpSearchSupplier1 As Global.AIMERP.UI.PopUpSearchCustomer
 
     '''<summary>
-    '''txtCustomer_Name control.
+    '''txtSupplier_Name control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txtCustomer_Name As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtSupplier_Name As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''TextBox1 control.
@@ -167,13 +167,13 @@ Partial Public Class AIMTRNPQUO
     Protected WithEvents btnSearch3 As Global.System.Web.UI.HtmlControls.HtmlButton
 
     '''<summary>
-    '''txtCustomer_Site_Name control.
+    '''txtSupplier_Site_Name control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txtCustomer_Site_Name As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtSupplier_Site_Name As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''PopUpSearchSite1 control.
@@ -185,13 +185,13 @@ Partial Public Class AIMTRNPQUO
     Protected WithEvents PopUpSearchSite1 As Global.AIMERP.UI.PopUpSearchSite
 
     '''<summary>
-    '''hdfCustomer_Site_Id control.
+    '''hdfSupplier_Site_Id control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents hdfCustomer_Site_Id As Global.System.Web.UI.WebControls.HiddenField
+    Protected WithEvents hdfSupplier_Site_Id As Global.System.Web.UI.WebControls.HiddenField
 
     '''<summary>
     '''TextBox19 control.
@@ -212,13 +212,13 @@ Partial Public Class AIMTRNPQUO
     Protected WithEvents Button8 As Global.System.Web.UI.HtmlControls.HtmlButton
 
     '''<summary>
-    '''txtField5 control.
+    '''txtRemark control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txtField5 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtRemark As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''txtCurrency_Name control.
@@ -275,13 +275,13 @@ Partial Public Class AIMTRNPQUO
     Protected WithEvents hdfTerm_Id As Global.System.Web.UI.WebControls.HiddenField
 
     '''<summary>
-    '''txtSart_Date1 control.
+    '''txtStart_Date control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txtSart_Date1 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtStart_Date As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''txtSart_Date1_CalendarExtender control.
@@ -293,13 +293,13 @@ Partial Public Class AIMTRNPQUO
     Protected WithEvents txtSart_Date1_CalendarExtender As Global.AjaxControlToolkit.CalendarExtender
 
     '''<summary>
-    '''txtEnd_Date1 control.
+    '''txtEnd_Date control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txtEnd_Date1 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtEnd_Date As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''txtEnd_Date1_CalendarExtender control.

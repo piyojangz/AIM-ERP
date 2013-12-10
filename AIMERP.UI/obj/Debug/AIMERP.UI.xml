@@ -3219,9 +3219,9 @@ pnlHead control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:AIMERP.UI.AIMTRNPQUO.TextBox10">
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtOrg_Id">
 	<summary>
-TextBox10 control.
+txtOrg_Id control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -3235,41 +3235,41 @@ txtQuotation_No control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtPromotion_Status">
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtQuotation_Status">
 	<summary>
-txtPromotion_Status control.
+txtQuotation_Status control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:AIMERP.UI.AIMTRNPQUO.hdfPromotion_Status">
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.hdfQuotation_Status">
 	<summary>
-hdfPromotion_Status control.
+hdfQuotation_Status control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtCustomer_Id">
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtSupplier_Id">
 	<summary>
-txtCustomer_Id control.
+txtSupplier_Id control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:AIMERP.UI.AIMTRNPQUO.btnSearch0">
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.PopUpSearchSupplier1">
 	<summary>
-btnSearch0 control.
+PopUpSearchSupplier1 control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtCustomer_Name">
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtSupplier_Name">
 	<summary>
-txtCustomer_Name control.
+txtSupplier_Name control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -3291,9 +3291,9 @@ btnSearch3 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtCustomer_Site_Name">
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtSupplier_Site_Name">
 	<summary>
-txtCustomer_Site_Name control.
+txtSupplier_Site_Name control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -3307,9 +3307,9 @@ PopUpSearchSite1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:AIMERP.UI.AIMTRNPQUO.hdfCustomer_Site_Id">
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.hdfSupplier_Site_Id">
 	<summary>
-hdfCustomer_Site_Id control.
+hdfSupplier_Site_Id control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -3331,9 +3331,9 @@ Button8 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtField5">
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtRemark">
 	<summary>
-txtField5 control.
+txtRemark control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -3387,9 +3387,9 @@ hdfTerm_Id control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtSart_Date1">
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtStart_Date">
 	<summary>
-txtSart_Date1 control.
+txtStart_Date control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -3403,9 +3403,9 @@ txtSart_Date1_CalendarExtender control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtEnd_Date1">
+</member><member name="F:AIMERP.UI.AIMTRNPQUO.txtEnd_Date">
 	<summary>
-txtEnd_Date1 control.
+txtEnd_Date control.
 </summary>
 	<remarks>
 Auto-generated field.
