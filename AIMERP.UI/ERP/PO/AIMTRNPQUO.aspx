@@ -58,10 +58,10 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <ul class="nav nav-tabs">
-        <li id="liHead" class="active" runat="server">
-            <asp:LinkButton ID="lbtHead" runat="server">ข้อมูลเอกสาร</asp:LinkButton></li>
+        <li id="liHead" runat="server">
+            <asp:LinkButton ID="lbtHead" runat="server" Enabled="False">ข้อมูลเอกสาร</asp:LinkButton></li>
         <li id="liDetail" runat="server">
-            <asp:LinkButton ID="lbtDetail" runat="server">ข้อมูลสินค้า</asp:LinkButton></li>
+            <asp:LinkButton ID="lbtDetail" runat="server" Enabled="False">ข้อมูลสินค้า</asp:LinkButton></li>
         <li id="liSearch" runat="server">
             <asp:LinkButton ID="lbtSearch" runat="server">ค้นหาข้อมูลเอกสาร</asp:LinkButton></li>
     </ul>
@@ -85,7 +85,7 @@
                                     :</td>
                                 <td class="rightCol">
                                     <asp:TextBox ID="TextBox10" runat="server" CssClass="list-group-item" 
-                                        Width="150px"></asp:TextBox>
+                                        Width="150px" />
                                 </td>
                             </tr>
                             <tr>
@@ -95,7 +95,7 @@
                                     :
                                 </td>
                                 <td class="right">
-                                    <asp:TextBox ID="txtId" runat="server" CssClass="list-group-item" Width="150px"></asp:TextBox>
+                                    <asp:TextBox ID="txtQuotation_No" runat="server" CssClass="list-group-item" Width="150px" />
                                 </td>
                                 <td class="leftCol">
                                     สถานะ
@@ -105,7 +105,7 @@
                                 </td>
                                 <td class="rightCol">
                                     <asp:TextBox ID="txtPromotion_Status" runat="server" CssClass="list-group-item" Width="150px"
-                                        Enabled="False"></asp:TextBox>
+                                        Enabled="False" />
                                     <asp:HiddenField ID="hdfPromotion_Status" runat="server" />
                                 </td>
                             </tr>
@@ -120,7 +120,7 @@
                                     <table>
                                         <tr>
                                             <td>
-                                                <asp:TextBox ID="txtCustomer_Id" runat="server" CssClass="list-group-item" Width="150px"></asp:TextBox>
+                                                <asp:TextBox ID="txtCustomer_Id" runat="server" CssClass="list-group-item" Width="150px" />
                                             </td>
                                             <td>
                                                 <button id="btnSearch0" runat="server" class="btn btn-default" type="button">
@@ -128,7 +128,7 @@
                                                 </button>
                                             </td>
                                             <td>
-                                                <asp:TextBox ID="txtCustomer_Name" runat="server" CssClass="list-group-item" Width="200px"></asp:TextBox>
+                                                <asp:TextBox ID="txtCustomer_Name" runat="server" CssClass="list-group-item" Width="200px" />
                                             </td>
                                         </tr>
                                     </table>
@@ -143,7 +143,7 @@
                                         <tr>
                                             <td>
                                                 <asp:TextBox ID="TextBox1" runat="server" CssClass="list-group-item" 
-                                                    Width="150px"></asp:TextBox>
+                                                    Width="150px" />
                                             </td>
                                             <td>
                                                 <button ID="btnSearch3" runat="server" class="btn btn-default" type="button">
@@ -166,7 +166,7 @@
                                         <tr>
                                             <td>
                                                 <asp:TextBox ID="txtCustomer_Site_Name" runat="server" CssClass="list-group-item"
-                                                    Width="150px"></asp:TextBox>
+                                                    Width="150px" />
                                             </td>
                                             <td>
                                                 <uc6:PopUpSearchSite ID="PopUpSearchSite1" runat="server" KeyTarget="hdfCustomer_Site_Id"
@@ -188,7 +188,7 @@
                                         <tr>
                                             <td>
                                                 <asp:TextBox ID="TextBox19" runat="server" CssClass="list-group-item" 
-                                                    Width="150px"></asp:TextBox>
+                                                    Width="150px" />
                                             </td>
                                             <td>
                                                 <button id="Button8" runat="server" class="btn btn-default" type="button">
@@ -208,7 +208,7 @@
                                 </td>
                                 <td class="left" colspan="4">
                                     <asp:TextBox ID="txtField5" runat="server" CssClass="list-group-item" 
-                                        Width="395px"></asp:TextBox>
+                                        Width="395px" />
                                 </td>
                             </tr>
                             <tr>
@@ -221,7 +221,7 @@
                                     <table>
                                         <tr>
                                             <td>
-                                                <asp:TextBox ID="txtCurrency_Name" runat="server" CssClass="list-group-item" Width="150px"></asp:TextBox>
+                                                <asp:TextBox ID="txtCurrency_Name" runat="server" CssClass="list-group-item" Width="150px" />
                                             </td>
                                             <td>
                                                 <uc5:PopUpSearchCurrency ID="PopUpSearchCurrency1" runat="server" Filter="txtCurrency_Name"
@@ -241,7 +241,7 @@
                                     <table>
                                         <tr>
                                             <td>
-                                                <asp:TextBox ID="txtTerm" runat="server" CssClass="list-group-item" Width="150px"></asp:TextBox>
+                                                <asp:TextBox ID="txtTerm" runat="server" CssClass="list-group-item" Width="150px" />
                                             </td>
                                             <td>
                                                 <uc7:PopUpSearchReceiveTerm ID="PopUpSearchReceiveTerm1" runat="server" KeyTarget="hdfTerm_Id"
@@ -263,7 +263,7 @@
                                 </td>
                                 <td class="right">
                                     <asp:TextBox ID="txtSart_Date1" runat="server" CssClass="list-group-item carlendar" 
-                                        Width="100px"></asp:TextBox>
+                                        Width="100px" />
                                     <asp:CalendarExtender ID="txtSart_Date1_CalendarExtender" runat="server" 
                                         Enabled="True" TargetControlID="txtSart_Date1">
                                     </asp:CalendarExtender>
@@ -276,7 +276,7 @@
                                 </td>
                                 <td class="rightCol">
                                     <asp:TextBox ID="txtEnd_Date1" runat="server" CssClass="list-group-item carlendar" 
-                                        Width="100px"></asp:TextBox>
+                                        Width="100px" />
                                     <asp:CalendarExtender ID="txtEnd_Date1_CalendarExtender" runat="server" 
                                         Enabled="True" TargetControlID="txtEnd_Date1">
                                     </asp:CalendarExtender>
@@ -288,10 +288,10 @@
                             </tr>
                             <tr>
                                 <td class="right" colspan="6">
-                                    <asp:Button ID="Button12" runat="server" CssClass="btn btn-primary" Text="ขออนุมัติ" />
-                                    <asp:Button ID="Button13" runat="server" CssClass="btn btn-primary" Text="อนุมัติ" />
-                                    <asp:Button ID="Button14" runat="server" CssClass="btn btn-primary" Text="ไม่อนุมัติ" />
-                                    <asp:Button ID="Button15" runat="server" CssClass="btn btn-primary" 
+                                    <asp:Button ID="btnRequest" runat="server" CssClass="btn btn-primary" Text="ขออนุมัติ" />
+                                    <asp:Button ID="btnApprove" runat="server" CssClass="btn btn-primary" Text="อนุมัติ" />
+                                    <asp:Button ID="btnReject" runat="server" CssClass="btn btn-primary" Text="ไม่อนุมัติ" />
+                                    <asp:Button ID="btnCreateSaleOrder" runat="server" CssClass="btn btn-primary" 
                                         Text="สร้างรายการสั่งซื้อสินค้า" />
                                 </td>
                             </tr>
@@ -340,7 +340,7 @@
                                         <tr>
                                             <td>
                                                 <asp:TextBox ID="TextBox7" runat="server" CssClass="list-group-item" 
-                                                    Width="100px"></asp:TextBox>
+                                                    Width="100px" />
                                             </td>
                                             <td>
                                                 <button ID="Button7" runat="server" class="btn btn-default" type="button">
@@ -355,7 +355,7 @@
                                         <tr>
                                             <td>
                                                 <asp:TextBox ID="txtItem_Id" runat="server" CssClass="list-group-item" 
-                                                    Width="150px"></asp:TextBox>
+                                                    Width="150px" />
                                             </td>
                                             <td class="1px">
                                                 <button id="Button3" runat="server" class="btn btn-default" type="button">
@@ -366,14 +366,14 @@
                                     </table>
                                 </td>
                                 <td>
-                                    <asp:TextBox ID="txtItem_Name" runat="server" CssClass="list-group-item" Width="100%"></asp:TextBox>
+                                    <asp:TextBox ID="txtItem_Name" runat="server" CssClass="list-group-item" Width="100%" />
                                 </td>
                                 <td class="style3">
                                     <table style="width: 100%">
                                         <tr>
                                             <td>
                                                 <asp:TextBox ID="txtUOM_Name" runat="server" CssClass="list-group-item" 
-                                                    Width="100px"></asp:TextBox>
+                                                    Width="100px" />
                                             </td>
                                             <td>
                                                 <uc10:PopUpSearchUOM ID="PopUpSearchUOM1" runat="server" ValueTarget="txtUOM_Name"
@@ -385,14 +385,14 @@
                                 </td>
                                  <td class="style2">
                                     <asp:TextBox ID="txtStart_Date2" runat="server" CssClass="list-group-item carlendar" 
-                                        Width="100px"></asp:TextBox>
+                                        Width="100px" />
                                     <asp:CalendarExtender ID="txtStart_Date2_CalendarExtender" runat="server" 
                                         Enabled="True" TargetControlID="txtStart_Date2">
                                     </asp:CalendarExtender>
                                 </td>
                                 <td class="style2">
                                    <asp:TextBox ID="txtEnd_Date2" runat="server" CssClass="list-group-item carlendar" 
-                                        Width="100px"></asp:TextBox>
+                                        Width="100px" />
                                     <asp:CalendarExtender ID="txtEnd_Date2_CalendarExtender" runat="server" 
                                         Enabled="True" TargetControlID="txtEnd_Date2">
                                     </asp:CalendarExtender>
@@ -532,7 +532,7 @@
                                         <tr>
                                             <td>
                                                 <asp:TextBox ID="TextBox11" runat="server" CssClass="list-group-item" 
-                                                    Width="100px"></asp:TextBox>
+                                                    Width="100px" />
                                             </td>
                                             <td>
                                                 <uc10:PopUpSearchUOM ID="PopUpSearchUOM3" runat="server" ValueTarget="txtUOM_Name"
@@ -544,26 +544,26 @@
                                     </td>
                                 <td class="style2">
                                     <asp:TextBox ID="TextBox22" runat="server" CssClass="list-group-item" 
-                                        Width="100px"></asp:TextBox>
+                                        Width="100px" />
                                 </td>
                                 <td class="style2">
                                     <asp:TextBox ID="TextBox5" runat="server" CssClass="list-group-item" 
-                                        Width="100px"></asp:TextBox>
+                                        Width="100px" />
                                 </td>
                                <td class="style2">
                                     <asp:TextBox ID="TextBox23" runat="server" CssClass="list-group-item" 
-                                        Width="100px"></asp:TextBox>
+                                        Width="100px" />
                                 </td>
                                  <td class="style2">
                                     <asp:TextBox ID="txtStart3_Date" runat="server" CssClass="list-group-item carlendar"
-                                        Width="100px"></asp:TextBox>
+                                        Width="100px" />
                                     <asp:CalendarExtender ID="txtStart_Date3_CalendarExtender" runat="server" Enabled="True"
                                         TargetControlID="txtStart_Date3" Format="dd/MM/yyyy">
                                     </asp:CalendarExtender>
                                 </td>
                                 <td class="style2">
                                     <asp:TextBox ID="txtEnd_Date3" runat="server" CssClass="list-group-item carlendar" 
-                                        Width="100px"></asp:TextBox>
+                                        Width="100px" />
                                     <asp:CalendarExtender ID="txtEnd_Date3_CalendarExtender" runat="server" 
                                         Enabled="True" TargetControlID="txtEnd_Date3">
                                     </asp:CalendarExtender>
@@ -665,14 +665,14 @@
                     <div class="panel-body">
                         <table style="width: 100%;">
                             <tr>
-                                <td class="leftCol">
-                                    เลขที่ใบขอซื้อ
+                                <td class="right">
+                                    เลขที่ใบเสนอราคา
                                 </td>
                                 <td class="1px">
                                     :
                                 </td>
                                 <td class="right">
-                                    <asp:TextBox ID="TextBox2" runat="server" CssClass="list-group-item" Width="150px"></asp:TextBox>
+                                    <asp:TextBox ID="txtQuotation_ID_Search" runat="server" CssClass="list-group-item" Width="150px" />
                                 </td>
                                 <td class="leftCol">
                                     สถานะ
@@ -681,8 +681,24 @@
                                     :
                                 </td>
                                 <td class="rightCol">
-                                    <asp:TextBox ID="TextBox3" runat="server" CssClass="list-group-item" 
-                                        Width="150px"></asp:TextBox>
+                                    <%--<table>
+                                        <tr>
+                                            <td>
+                                                <asp:TextBox ID="txtCustomer_IdS" runat="server" CssClass="list-group-item" Width="150px" />
+                                            </td>
+                                            <td>
+                                                <uc4:PopUpSearchCustomer ID="PopUpSearchCustomer2" runat="server" Enabled="True"
+                                                    Filter="txtCustomer_IdS" KeyTarget="txtCustomer_IdS" ValueTarget="txtCustomer_NameS" />
+                                            </td>
+                                            <td>
+                                                <asp:TextBox ID="txtCustomer_NameS" runat="server" CssClass="list-group-item" Width="200px" />
+                                            </td>
+                                        </tr>
+                                    </table>--%>
+
+                                    <asp:TextBox ID="txtStatus_Search" runat="server" CssClass="list-group-item" 
+                                        Width="150px" />
+                                    <!-- ต้องเป็น usercontrol สถานะ -->
                                     <button ID="Button9" runat="server" class="btn btn-default" type="button">
                                                     <span class="glyphicon glyphicon-search"></span>
                                                 </button>
@@ -699,7 +715,7 @@
                                     <table>
                                         <tr>
                                             <td>
-                                                <asp:TextBox ID="TextBox6" runat="server" CssClass="list-group-item" Width="150px"></asp:TextBox>
+                                                <asp:TextBox ID="txtSupplier_ID_Search" runat="server" CssClass="list-group-item" Width="150px" />
                                             </td>
                                             <td>
                                                 <button ID="Button10" runat="server" class="btn btn-default" type="button">
@@ -707,7 +723,7 @@
                                                 </button>
                                             </td>
                                             <td>
-                                                <asp:TextBox ID="TextBox9" runat="server" CssClass="list-group-item" Width="200px"></asp:TextBox>
+                                                <asp:TextBox ID="TextBox9" runat="server" CssClass="list-group-item" Width="200px" />
                                             </td>
                                         </tr>
                                     </table>
@@ -727,11 +743,10 @@
                                     :
                                 </td>
                                 <td class="right">
-                                    <asp:TextBox ID="txtStart_Date4" runat="server" CssClass="list-group-item carlendar" 
-                                        Width="100px"></asp:TextBox>
+                                    <asp:TextBox ID="txtStart_Date_Search" runat="server" CssClass="list-group-item carlendar" 
+                                        Width="100px" />
                                     <asp:CalendarExtender ID="txtStart_Date4_CalendarExtender" runat="server" 
-                                        Enabled="True" TargetControlID="txtStart_Date4">
-                                    </asp:CalendarExtender>
+                                        Enabled="True" TargetControlID="txtStart_Date_Search" />
                                 </td>
                                 <td class="leftCol">
                                     วันที่เลิกใช้งาน
@@ -740,11 +755,10 @@
                                     :
                                 </td>
                                 <td class="rightCol">
-                                    <asp:TextBox ID="txtEnd_Date4" runat="server" CssClass="list-group-item carlendar" 
-                                        Width="100px"></asp:TextBox>
+                                    <asp:TextBox ID="txtEnd_Date_Search" runat="server" CssClass="list-group-item carlendar" 
+                                        Width="100px" />
                                     <asp:CalendarExtender ID="txtEnd_Date4_CalendarExtender" runat="server" 
-                                        Enabled="True" TargetControlID="txtEnd_Date4">
-                                    </asp:CalendarExtender>
+                                        Enabled="True" TargetControlID="txtEnd_Date_Search" />
                                 </td>
                             </tr>
                         </table>
@@ -752,7 +766,7 @@
                 </div>
             </div>
         </div>
-        <asp:Panel ID="pnlResult" runat="server" Visible="True">
+        <asp:Panel ID="pnlResult" runat="server" Visible="False">
             <div class="row">
                 <div class="col-md-12">
                     <div class="panel panel-primary">
@@ -762,75 +776,82 @@
                         <div class="panel-body">
                             <table style="width: 100%;">
                                 <tr class="tab-result-head">
-                                    <td class="style6">
+                                    <td>
                                         ลำดับ
                                     </td>
-                                    <td class="style7">
-                                        เลขที่ใบขอซื้อ</td>
-                                    <td class="style10">
+                                    <td>
+                                        เลขที่ใบขอซื้อ
+                                    </td>
+                                    <td>
                                         ผู้ขาย
                                     </td>
                                     <td>
                                         รายละเอียด
                                     </td>
-                                    <td class="style9">
+                                    <td>
                                         สถานะ
                                     </td>
-                                    <td class="style9">
+                                    <td>
                                         วันที่เริ่มใช้งาน
                                     </td>
-                                    <td class="style9">
+                                    <td>
                                         วันที่เลิกใช้งาน
                                     </td>
                                 </tr>
-                                <asp:Repeater ID="rptResult" runat="server">
+                                <asp:Repeater ID="rptSearch" runat="server">
                                     <ItemTemplate>
                                         <tr class='<%# DataBinder.Eval(Container.DataItem, "_Class_")%>'>
                                             <td>
-                                                <%# DataBinder.Eval(Container.DataItem, "Field1")%>
+                                                <asp:Label ID="lblSeq" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "_Seq_")%>'></asp:Label>
                                             </td>
                                             <td>
-                                                <%# DataBinder.Eval(Container.DataItem, "Field1")%>
+                                                <%# DataBinder.Eval(Container.DataItem, "Quotation_No")%>
                                             </td>
                                             <td>
-                                                <%# DataBinder.Eval(Container.DataItem, "Field1")%>
+                                                <%# DataBinder.Eval(Container.DataItem, "Supplier_Name")%>
                                             </td>
                                             <td>
-                                                <%# DataBinder.Eval(Container.DataItem, "Field1")%>
+                                                <%# DataBinder.Eval(Container.DataItem, "Remark")%>
                                             </td>
                                             <td>
-                                                <%# DataBinder.Eval(Container.DataItem, "Field1")%>
+                                                <%# DataBinder.Eval(Container.DataItem, "Status")%>
                                             </td>
                                             <td>
-                                                <%# DataBinder.Eval(Container.DataItem, "Field1")%>
+                                                <%# DataBinder.Eval(Container.DataItem, "Start_Date")%>
                                             </td>
                                             <td>
-                                                <%# DataBinder.Eval(Container.DataItem, "Field1")%>
+                                                <%# DataBinder.Eval(Container.DataItem, "End_Date")%>
+                                            </td>
+                                            <td>
+                                                <asp:ImageButton ID="imbEdit" runat="server" CommandName="Edit" ImageUrl="~/image/button/btnEdit.png" />
                                             </td>
                                         </tr>
                                     </ItemTemplate>
                                     <AlternatingItemTemplate>
                                         <tr class='<%# DataBinder.Eval(Container.DataItem, "_Class_")%>'>
                                             <td>
-                                                <%# DataBinder.Eval(Container.DataItem, "Field1")%>
+                                                <asp:Label ID="lblSeq" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "_Seq_")%>'></asp:Label>
                                             </td>
                                             <td>
-                                                <%# DataBinder.Eval(Container.DataItem, "Field1")%>
+                                                <%# DataBinder.Eval(Container.DataItem, "Quotation_No")%>
                                             </td>
                                             <td>
-                                                <%# DataBinder.Eval(Container.DataItem, "Field1")%>
+                                                <%# DataBinder.Eval(Container.DataItem, "Supplier_Name")%>
                                             </td>
                                             <td>
-                                                <%# DataBinder.Eval(Container.DataItem, "Field1")%>
+                                                <%# DataBinder.Eval(Container.DataItem, "Remark")%>
                                             </td>
                                             <td>
-                                                <%# DataBinder.Eval(Container.DataItem, "Field1")%>
+                                                <%# DataBinder.Eval(Container.DataItem, "Status")%>
                                             </td>
                                             <td>
-                                                <%# DataBinder.Eval(Container.DataItem, "Field1")%>
+                                                <%# DataBinder.Eval(Container.DataItem, "Start_Date")%>
                                             </td>
                                             <td>
-                                                <%# DataBinder.Eval(Container.DataItem, "Field1")%>
+                                                <%# DataBinder.Eval(Container.DataItem, "End_Date")%>
+                                            </td>
+                                            <td>
+                                                <asp:ImageButton ID="imbEdit" runat="server" CommandName="Edit" ImageUrl="~/image/button/btnEdit.png" />
                                             </td>
                                         </tr>
                                     </AlternatingItemTemplate>

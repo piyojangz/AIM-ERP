@@ -32,6 +32,16 @@ Public Class AIMTRNPQUO
             Session("TrnPOQUODetailCollection") = value
         End Set
     End Property
+
+    Public Property VW_Status As String
+        Get
+            Return ViewState("VW_Status")
+        End Get
+        Set(value As String)
+            ViewState("VW_Status") = value
+        End Set
+    End Property
+
 #End Region
 
 #Region "Page Event"
@@ -49,7 +59,7 @@ Public Class AIMTRNPQUO
             End If
 
             Me.Master.FunctionName = "ใบเสนอราคา"
-            Me.RepeaterNavigateBar.TargetRepeater = Me.rptResult
+            Me.RepeaterNavigateBar.TargetRepeater = Me.rptSearch
         Catch ex As Exception
 
         End Try
@@ -57,24 +67,37 @@ Public Class AIMTRNPQUO
 #End Region
 
 #Region "Control Method"
+#Region "Head"
     Protected Sub lbtHead_Click(ByVal sender As Object, ByVal e As EventArgs) Handles lbtHead.Click
-        Me.liHead.Attributes.Remove("Class")
-        Me.liDetail.Attributes.Remove("Class")
-        Me.liSearch.Attributes.Remove("Class")
-        Me.liHead.Attributes.Add("Class", "active")
-        Me.pnlHead.Visible = True
-        Me.pnlDetail.Visible = False
-        Me.pnlSearch.Visible = False
+        'Me.liHead.Attributes.Remove("Class")
+        'Me.liDetail.Attributes.Remove("Class")
+        'Me.liSearch.Attributes.Remove("Class")
+        'Me.liHead.Attributes.Add("Class", "active")
+        'Me.pnlHead.Visible = True
+        'Me.pnlDetail.Visible = False
+        'Me.pnlSearch.Visible = False
+        Try
+            Me.ShowPanel(True, False, False)
+        Catch ex As Exception
+
+        End Try
     End Sub
 
     Protected Sub lbtDetail_Click(ByVal sender As Object, ByVal e As EventArgs) Handles lbtDetail.Click
-        Me.liHead.Attributes.Remove("Class")
-        Me.liDetail.Attributes.Remove("Class")
-        Me.liSearch.Attributes.Remove("Class")
-        Me.liDetail.Attributes.Add("Class", "active")
-        Me.pnlHead.Visible = False
-        Me.pnlDetail.Visible = True
-        Me.pnlSearch.Visible = False
+        'Me.liHead.Attributes.Remove("Class")
+        'Me.liDetail.Attributes.Remove("Class")
+        'Me.liSearch.Attributes.Remove("Class")
+        'Me.liDetail.Attributes.Add("Class", "active")
+        'Me.pnlHead.Visible = False
+        'Me.pnlDetail.Visible = True
+        'Me.pnlSearch.Visible = False
+
+        Try
+            Me.ShowPanel(False, True, False)
+            Me.BindDetail()
+        Catch ex As Exception
+
+        End Try
     End Sub
 
     Private Sub lbtSearch_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles lbtSearch.Click
@@ -94,13 +117,46 @@ Public Class AIMTRNPQUO
         End Try
     End Sub
 
+    Private Sub ToolBar_NewClick(sender As Object, e As System.EventArgs) Handles ToolBar.NewClick
+        Try
+            Me.ClearHeadControl()
+            Me.ClearDetailControl()
+            Me.EnableControl(True)
+            Me.txtPromotion_Status.Text = "สร้างใหม่"
+            Me.VW_Status = "N"
+            Me.ShowPanel(True, False, False)
+            Me.EnableToolBar(Me.ToolBar, False, True, True, False, False, False, False, False, False)
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+    Private Sub ToolBar_ClearClick(sender As Object, e As System.EventArgs) Handles ToolBar.ClearClick
+        Try
+            Me.ClearHeadControl()
+            Me.ClearDetailControl()
+            Me.ClearSearchControl()
+            'Me.TrnSQUODetailCollection = New TrnSQUODetailCollection
+            Me.EnableControl(False)
+            Me.VW_Status = ""
+            Me.ShowPanel(False, False, True)
+            Me.EnableToolBar(Me.ToolBar, True, False, True, False, False, False, False, False, True)
+            Me.pnlResult.Visible = False
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
     Private Sub ToolBar_SearchClick(sender As Object, e As System.EventArgs) Handles ToolBar.SearchClick
         Try
             Me.TrnPOQUOHeader = New TrnPOQUOHeader
+            Me.TrnPOQUOHeaderBusiness = New TrnPOQUOHeaderBusiness
 
             With Me.TrnPOQUOHeader
                 .Org_ID = 0
-                '.SQUO_ID = Me.txtq
+                '.SQUO_ID = Me.txtId.Text.Trim
+                .Status = Me.txtStatus_Search.Text.Trim
+                '.Supplier_ID = txtSupplier_ID.Text.Trim
             End With
 
             Me.TrnPOQUOHeaderCollection = Me.TrnPOQUOHeaderBusiness.SelectAllData(TrnPOQUOHeader)
@@ -108,7 +164,7 @@ Public Class AIMTRNPQUO
             If Me.TrnPOQUOHeaderCollection.Items.Count <> 0 Then
                 Me.RepeaterNavigateBar.CurrentSeq = 1
                 Me.RepeaterNavigateBar.HighLight = ""
-                Me.RepeaterNavigateBar.TargetRepeater = Me.rptResult
+                Me.RepeaterNavigateBar.TargetRepeater = Me.rptSearch
                 Me.RepeaterNavigateBar.DataSource = Me.TrnPOQUOHeaderCollection
                 Me.RepeaterNavigateBar.BindData()
                 Me.pnlResult.Visible = True
@@ -123,6 +179,87 @@ Public Class AIMTRNPQUO
     Private Sub ToolBar_SaveClick(sender As Object, e As System.EventArgs) Handles ToolBar.SaveClick
 
     End Sub
+#End Region
+
+#Region "Detail"
+    Private Sub btnRequest_Click(sender As Object, e As System.EventArgs) Handles btnRequest.Click
+
+    End Sub
+
+    Private Sub btnApprove_Click(sender As Object, e As System.EventArgs) Handles btnApprove.Click
+
+    End Sub
+
+    Private Sub btnReject_Click(sender As Object, e As System.EventArgs) Handles btnReject.Click
+
+    End Sub
+
+    Private Sub btnCreateSaleOrder_Click(sender As Object, e As System.EventArgs) Handles btnCreateSaleOrder.Click
+
+    End Sub
+#End Region
+
+#Region "Search"
+    Private Sub rptSearch_ItemCommand(source As Object, e As System.Web.UI.WebControls.RepeaterCommandEventArgs) Handles rptSearch.ItemCommand
+        Try
+            Select Case e.CommandName
+                Case "Edit"
+                    Dim Index As Integer = ((Me.RepeaterNavigateBar.CurrentPage - 1) * Me.RepeaterNavigateBar.RecordPerPage) + e.Item.ItemIndex
+                    Dim Row As Integer
+                    Dim Label As Label
+                    Label = CType(Me.rptSearch.Items(e.Item.ItemIndex).FindControl("lblSeq"), Label)
+                    Row = Label.Text - 1
+                    Me.TrnPOQUOHeader = New TrnPOQUOHeader
+                    Me.TrnPOQUOHeader = Me.RepeaterNavigateBar.DataSource.Items(Row)
+
+                    With Me
+                        '.txtOrg_Id.Text = Me.TrnSQUOHeader.Org_ID
+                        .txtQuotation_No.Text = Me.TrnPOQUOHeader.Quotation_No
+                        '    .hdfPromotion_Status.Value = Me.TrnSQUOHeader.Promotion_Status
+
+                        Me.PromotionStatus(Me.TrnPOQUOHeader.Status)
+
+                        '    .txtCustomer_Id.Text = Me.TrnSQUOHeader.Customer_ID
+                        '    .txtCustomer_Name.Text = Me.TrnSQUOHeader.Customer_Name
+                        '    .hdfCurrency_Code.Value = Me.TrnSQUOHeader.Currency_Code
+                        '    .txtCurrency_Name.Text = Me.TrnSQUOHeader.Currency_Name
+                        '    .hdfCustomer_Site_Id.Value = Me.TrnSQUOHeader.Customer_Site_ID
+                        '    .txtCustomer_Site_Name.Text = Me.TrnSQUOHeader.Customer_Name
+                        '    .hdfTerm_Id.Value = Me.TrnSQUOHeader.Term_ID
+                        '    .txtTerm.Text = Me.TrnSQUOHeader.Term_Name
+                        '    .hdfBill_To_Id.Value = Me.TrnSQUOHeader.Bill_To_ID
+                        '    .txtBill_To_Name.Text = Me.TrnSQUOHeader.Bill_To_Name
+                        '    .hdfShip_To_Id.Value = Me.TrnSQUOHeader.Ship_To_ID
+                        '    .txtShip_To_Name.Text = Me.TrnSQUOHeader.Ship_To_Name
+                        '    .txtStart_Date.Text = Me.GetDateString(Me.TrnSQUOHeader.Start_Date)
+                        '    .txtEnd_Date.Text = Me.GetDateString(Me.TrnSQUOHeader.End_Date)
+                        '    .txtTax.Text = ""
+                        '    .txtDescription.Text = Me.TrnSQUOHeader.Description
+                        '    .txtRemark.Text = Me.TrnSQUOHeader.Remark
+
+                        '    .lblStatus.Text = "Edit"
+                    End With
+
+                    'Me.TrnSQUODetail = New TrnSQUODetail
+                    'Me.TrnSQUOHeaderBusiness = New TrnSQUOHeaderBusiness
+
+                    'With Me.TrnSQUODetail
+                    '    .Org_ID = Me.TrnSQUOHeader.Org_ID
+                    '    .Quotation_ID = Me.TrnSQUOHeader.Quotation_ID
+                    'End With
+
+                    'Me.TrnSQUODetailCollection = Me.TrnSQUODetailBusiness.SelectAllData(Me.TrnSQUODetail)
+                    Me.BindDetail()
+
+                    Me.EnableControl(True)
+                    Me.ShowPanel(True, False, False)
+                    Me.EnableToolBar(Me.ToolBar, False, True, True, False, False, False, False, False, False)
+            End Select
+        Catch ex As Exception
+
+        End Try
+    End Sub
+#End Region
 #End Region
 
 #Region "Function"
@@ -202,7 +339,7 @@ Public Class AIMTRNPQUO
                 '.txtQty.Text = ""
                 '.txtUOM_Name.Text = ""
                 '.txtAmount.Text = ""
-                .rptDetail.DataBind()
+                .rptSearch.DataBind()
 
                 .txtItem_Id.Enabled = True
                 '.PopUpSearchItem1.Enabled = True
@@ -295,31 +432,31 @@ Public Class AIMTRNPQUO
             Select Case Status
                 Case "N"
                     .txtPromotion_Status.Text = "สร้างใหม่"
-                    '.btnRequest.Visible = True
-                    '.btnApprove.Visible = False
-                    '.btnReject.Visible = False
-                    '.btnCreateSaleOrder.Visible = False
+                    .btnRequest.Visible = True
+                    .btnApprove.Visible = False
+                    .btnReject.Visible = False
+                    .btnCreateSaleOrder.Visible = False
                     Me.EnableToolBar(Me.ToolBar, False, True, True, False, False, False, False, False, False)
                 Case "W"
                     .txtPromotion_Status.Text = "รออนุมัติ"
-                    '.btnRequest.Visible = False
-                    '.btnApprove.Visible = True
-                    '.btnReject.Visible = True
-                    '.btnCreateSaleOrder.Visible = False
+                    .btnRequest.Visible = False
+                    .btnApprove.Visible = True
+                    .btnReject.Visible = True
+                    .btnCreateSaleOrder.Visible = False
                     Me.EnableToolBar(Me.ToolBar, False, False, True, False, False, False, False, False, False)
                 Case "R"
                     .txtPromotion_Status.Text = "ไม่อนุมัติ"
-                    '.btnRequest.Visible = False
-                    '.btnApprove.Visible = False
-                    '.btnReject.Visible = False
-                    '.btnCreateSaleOrder.Visible = False
+                    .btnRequest.Visible = False
+                    .btnApprove.Visible = False
+                    .btnReject.Visible = False
+                    .btnCreateSaleOrder.Visible = False
                     Me.EnableToolBar(Me.ToolBar, False, False, True, False, False, False, False, False, False)
                 Case "A"
                     .txtPromotion_Status.Text = "อนุมัติ"
-                    '.btnRequest.Visible = False
-                    '.btnApprove.Visible = False
-                    '.btnReject.Visible = False
-                    '.btnCreateSaleOrder.Visible = True
+                    .btnRequest.Visible = False
+                    .btnApprove.Visible = False
+                    .btnReject.Visible = False
+                    .btnCreateSaleOrder.Visible = True
                     Me.EnableToolBar(Me.ToolBar, False, False, True, False, False, False, False, False, False)
             End Select
         End With

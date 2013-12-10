@@ -46,3 +46,11 @@ E:\My Project\Freelance\AIMERP\Code\AIMERP.Utility\obj\Debug\AIMERP.Utility.vbpr
 E:\My Project\Freelance\AIMERP\Code\AIMERP.Utility\obj\Debug\AIMERP.Utility.dll
 E:\My Project\Freelance\AIMERP\Code\AIMERP.Utility\obj\Debug\AIMERP.Utility.xml
 E:\My Project\Freelance\AIMERP\Code\AIMERP.Utility\obj\Debug\AIMERP.Utility.pdb
+E:\My Project\Freelance\AIM-ERP\AIMERP.Utility\bin\Debug\AIMERP.Utility.dll
+E:\My Project\Freelance\AIM-ERP\AIMERP.Utility\bin\Debug\AIMERP.Utility.pdb
+E:\My Project\Freelance\AIM-ERP\AIMERP.Utility\bin\Debug\AIMERP.Utility.xml
+E:\My Project\Freelance\AIM-ERP\AIMERP.Utility\obj\Debug\AIMERP.Utility.Resources.resources
+E:\My Project\Freelance\AIM-ERP\AIMERP.Utility\obj\Debug\AIMERP.Utility.vbproj.GenerateResource.Cache
+E:\My Project\Freelance\AIM-ERP\AIMERP.Utility\obj\Debug\AIMERP.Utility.dll
+E:\My Project\Freelance\AIM-ERP\AIMERP.Utility\obj\Debug\AIMERP.Utility.xml
+E:\My Project\Freelance\AIM-ERP\AIMERP.Utility\obj\Debug\AIMERP.Utility.pdb

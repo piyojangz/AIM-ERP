@@ -95,13 +95,13 @@ Partial Public Class AIMTRNPQUO
     Protected WithEvents TextBox10 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''txtId control.
+    '''txtQuotation_No control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txtId As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtQuotation_No As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''txtPromotion_Status control.
@@ -311,40 +311,40 @@ Partial Public Class AIMTRNPQUO
     Protected WithEvents txtEnd_Date1_CalendarExtender As Global.AjaxControlToolkit.CalendarExtender
 
     '''<summary>
-    '''Button12 control.
+    '''btnRequest control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Button12 As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents btnRequest As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''Button13 control.
+    '''btnApprove control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Button13 As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents btnApprove As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''Button14 control.
+    '''btnReject control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Button14 As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents btnReject As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''Button15 control.
+    '''btnCreateSaleOrder control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Button15 As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents btnCreateSaleOrder As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
     '''pnlDetail control.
@@ -644,22 +644,22 @@ Partial Public Class AIMTRNPQUO
     Protected WithEvents pnlSearch As Global.System.Web.UI.WebControls.Panel
 
     '''<summary>
-    '''TextBox2 control.
+    '''txtQuotation_ID_Search control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox2 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtQuotation_ID_Search As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TextBox3 control.
+    '''txtStatus_Search control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox3 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtStatus_Search As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Button9 control.
@@ -671,13 +671,13 @@ Partial Public Class AIMTRNPQUO
     Protected WithEvents Button9 As Global.System.Web.UI.HtmlControls.HtmlButton
 
     '''<summary>
-    '''TextBox6 control.
+    '''txtSupplier_ID_Search control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox6 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtSupplier_ID_Search As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Button10 control.
@@ -698,13 +698,13 @@ Partial Public Class AIMTRNPQUO
     Protected WithEvents TextBox9 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''txtStart_Date4 control.
+    '''txtStart_Date_Search control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txtStart_Date4 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtStart_Date_Search As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''txtStart_Date4_CalendarExtender control.
@@ -716,13 +716,13 @@ Partial Public Class AIMTRNPQUO
     Protected WithEvents txtStart_Date4_CalendarExtender As Global.AjaxControlToolkit.CalendarExtender
 
     '''<summary>
-    '''txtEnd_Date4 control.
+    '''txtEnd_Date_Search control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txtEnd_Date4 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtEnd_Date_Search As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''txtEnd_Date4_CalendarExtender control.
@@ -743,13 +743,13 @@ Partial Public Class AIMTRNPQUO
     Protected WithEvents pnlResult As Global.System.Web.UI.WebControls.Panel
 
     '''<summary>
-    '''rptResult control.
+    '''rptSearch control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents rptResult As Global.System.Web.UI.WebControls.Repeater
+    Protected WithEvents rptSearch As Global.System.Web.UI.WebControls.Repeater
 
     '''<summary>
     '''RepeaterNavigateBar control.
